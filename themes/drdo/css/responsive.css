@@ -1,0 +1,3939 @@
+/************** Media Queries Tablets *******************/
+
+@media screen and ( min-width: 1920px) {
+    .subSiteHomeBanner .bannerImg,
+    .subSiteHomeBanner .videoWrap,
+    .subSiteHomeBanner {
+        height: 520px;
+    }
+    .homeFeedTab .tabNav li a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #content {
+        min-height: 365px;
+    }
+    .discriptionCaption .techTitle {
+        max-width: 410px;
+    }
+}
+
+@media screen and ( max-width: 1599px) {
+    /***home page***/
+    /*body { font-size: 15px; }*/
+    .drdoNewsRow .row {
+        margin: 0 -25px;
+    }
+    .drdoNewsRow .row .cols4 {
+        padding: 0 25px;
+    }
+    .homeFeedTab .tabNav li a,
+    .drdoNewsRow h2 {
+        font-size: 26px;
+    }
+    .drdoNewsRow:before {
+        margin-left: 199px;
+    }
+    .drdoNewsRow:after {
+        margin-right: 199px;
+    }
+    .homeImpLinks .impLinksBox p {
+        font-size: 15px;
+    }
+    .homeImpLinks .impLinksBox:hover p {
+        font-weight: 400;
+    }
+    .homeImpLinks .impLinksBox {
+        padding: 10px 1px;
+        min-height: 135px;
+    }
+    .discriptionCaption .techTitle,
+    .materials .discriptionCaption .techTitle {
+        font-size: 24px;
+    }
+    .lang-hi .discriptionCaption .techTitle {
+        font-size: 21px;
+    }
+    .discriptionCaption .shortDescription {
+        font-size: 18px;
+    }
+    .combatEquipmentList .combatBoxOuter .combatEquipmentTitle {
+        font-size: 19px;
+    }
+    .mediaGallery .homeGalleryBox .titleText {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+    .electronics {
+        max-width: 50%;
+    }
+    .materials {
+        width: 50%;
+    }
+    .drdoNewsRow h2,
+    .homeFeedTab .tabNav li a {
+        font-size: 21px;
+    }
+    /*.atGlance .glanceBox .linkText { padding: 50px 20px; }*/
+    .videoWrap,
+    .homeBanner .bannerImg {
+        height: 650px;
+    }
+    .aboutDrdo .rightImg {
+        max-width: 450px;
+    }
+    .pageTitle h1 {
+        font-size: 38px;
+    }
+    h2,
+    .whatsNewsRow h2,
+    .missionVision h2,
+    .labHomeProducs h2,
+    .techHomeProducs h2,
+    .techCluEvent h2,
+    .commonContent h2,
+    .combatEquipment h2,
+    .atGlance h2,
+    .mediaGallery h2,
+    .clustersTitle {
+        font-size: 1.7em;
+        margin-bottom: 15px;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    h4 {
+        font-size: 1.2em;
+    }
+    h5 {
+        font-size: 1em;
+    }
+    h6 {
+        font-size: 1em;
+    }
+    .commonContent {
+        padding: 20px 0;
+    }
+    .aboutDrdo {
+        padding-top: 0 !important;
+    }
+    .czContactInfo ul li {
+        width: 33.333%;
+    }
+    .citizenCharter .resTab .tabNav li a {
+        height: 250px;
+    }
+    .view-labs-and-establishments .item-list ul li {
+        width: 25%;
+    }
+    .headClustList li a {
+        font-size: 19px;
+    }
+    .techClustersList .title {
+        font-size: 18px;
+    }
+    .item-list .techClustersList,
+    .view-photo-gallery ul,
+    .page-node-type-photo-gallery .photoGallery,
+    .page-video-gallery .videoGallery,
+    .video-listing .video-section {
+        margin: 0 -10px;
+    }
+    .item-list .techClustersList li,
+    .view-photo-gallery ul li,
+    .page-node-type-photo-gallery .photoGallery li,
+    .page-video-gallery .videoGallery li,
+    .video-listing .video-section li {
+        padding: 10px;
+    }
+    .view-photo-gallery ul li,
+    .page-node-type-photo-gallery .photoGallery li,
+    .page-video-gallery .videoGallery li,
+    .video-listing .video-section li {
+        width: 33.333%;
+    }
+    .subSiteHomeBanner h1 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+    .techHomeProducList .swiper-slide {
+        padding: 13px;
+    }
+    .techHomeProducList .productBox {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    .techHomeProducList .productBox h3 {
+        font-size: 19px;
+    }
+    .techHomeProducList .productBox .bottomBox {
+        min-height: 90px;
+        padding: 20px 10px;
+    }
+    .whatsNewsRow .playPause {
+        top: -48px;
+    }
+    .techWwhatsNewList .viewAll {
+        top: 65px;
+        right: 55px;
+    }
+    .techLabsBlock .swiper-slide {
+        padding: 0 6px;
+    }
+    .labHomeCareersSlider {
+        margin-left: -6px;
+    }
+    .homeLabBox .imgHolder {
+        margin-bottom: 18px;
+    }
+    .whatsNewList ul li .newsDate {
+        left: 0;
+        top: 15px;
+    }
+    .whatsNewList ul li a {
+        padding: 15px 15px 15px 80px;
+    }
+    .techCluEventBox,
+    .techCluEventList .swiper-slide {
+        padding: 10px;
+    }
+    .techCluEventBox:hover {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.13);
+    }
+    .techCluEventBox h3 a {
+        line-height: 1.2;
+    }
+    .techWwhatsNewsRow .row .leftCol {
+        padding: 50px 25px;
+    }
+    .whatsNewsRow,
+    .missionVision,
+    .labHomeProducs {
+        padding: 20px 0;
+    }
+    .whatsNewsRow:before {
+        margin-right: 192px;
+    }
+    .whatsNewsRow:before,
+    .techWwhatsNewsRow:after {
+        height: 300px;
+    }
+    .labWhatsNewsRow:before {
+        height: 100%;
+    }
+    .whatsNewList .viewAll.rightTopLink {
+        top: 6px;
+    }
+    .missionVision {
+        margin-bottom: -20px;
+    }
+    .technologiesProductSlider .swiper-container {
+        padding: 50px 40px;
+    }
+    .mediaGallery {
+        padding: 50px 0;
+    }
+    .whatsNewList.withBoxShadow .viewAll {
+        top: 53px;
+    }
+    .whatsNewList.withBoxShadow .playPause {
+        top: 50px;
+    }
+    .corporateDirList ul li {
+        width: 24%;
+    }
+    .homeMessageBoardList .tickerDivBlock,
+    .homeEventList .tickerDivBlock,
+    .whatsNewsSlider .tickerDivBlock {
+        height: 420px !important;
+    }
+    .ministerBlockWrap {
+        padding: 10px;
+    }
+    .ministerBlock .ministerPhoto,
+    .ministerBlock .ministerPhoto img {
+        height: 100px;
+        width: 100px;
+    }
+    .ministerBlock .ministerSrtDetail {
+        left: 110px;
+    }
+    .ministerBlock .ministerSrtDetail .ministerName {
+        font-size: 17px;
+    }
+    .ministerBlock .ministerSrtDetail p {
+        font-size: 16px;
+    }
+    .ministerGrayBox .viewProfile,
+    .ministerBlock .viewProfile {
+        font-size: 15px;
+    }
+    .ministerBlockWrap .ministerPhoto {
+        position: relative;
+        /*top: 19px;*/
+    }
+    .ministerBlock .ministerSrtDetail p {
+        margin-bottom: 5px;
+    }
+    .ministerGrayBox {
+        padding: 22px 0;
+    }
+    .ministorProfile .leftCol {
+        width: 20%;
+    }
+    .ministorProfile .rightCol {
+        width: 80%;
+    }
+    .listingDetail .field--name-field-event-image,
+    .listingDetail .field--name-field-image {
+        width: 350px;
+    }
+    .homeBanner h1 {
+        font-size: 36px;
+    }
+    .mem,
+    .threeColumns .discriptionCaption {
+        min-height: 340px;
+    }
+    .mediaGallery .homePhotoGallery {
+        padding-right: 30px;
+    }
+    .mediaGallery .homeVideoGallery {
+        padding-left: 30px;
+    }
+    /*.homePhotoAlbum .imgHolder { height: 207px; }*/
+    .combatEquipmentList .combatBoxOuter .btnSet {
+        left: 8px;
+        right: 8px;
+    }
+    .combatEquipmentList .combatBoxOuter .btnSet a,
+    .discriptionCaption .commonBtn,
+    .discriptionCaption .commonBtn:hover {
+        height: 34px;
+        border-radius: 15px;
+        padding: 6px 11px;
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .discriptionCaption .commonBtn.whiteBtn,
+    .discriptionCaption .commonBtn.whiteBtn:hover {
+        padding: 6px 15px;
+    }
+    .mediaGallery .viewAll {
+        top: -46px;
+    }
+    .homeMessageBoardList .tickerDivBlock,
+    .homeEventList .tickerDivBlock,
+    .whatsNewsSlider .tickerDivBlock {
+        margin-bottom: 20px;
+    }
+    .homeSocialFeed {
+        margin-bottom: 0;
+    }
+    .homeFeedTab .tabContent {
+        padding-bottom: 0;
+    }
+    #content.drdoNewsRow {
+        padding: 20px 0;
+    }
+    #content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .commonPad {
+        padding: 20px 0;
+    }
+    .discriptionCaption .shortDescription {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .materials {
+        min-height: 440px;
+    }
+    .combatEquipment {
+        padding: 20px 0;
+    }
+    .atGlance,
+    .mediaGallery,
+    .fooerLogo {
+        padding: 20px 0;
+    }
+    .copyrightLink li a,
+    .copyrightRow .leftCol p,
+    .copyrightRow .rightCol {
+        font-size: 13px;
+    }
+    .whatsNewsSlider .homeNewsBox a,
+    .homeMessageBoardList .homeMessageBoardItem a,
+    .homeEventList .homeEventItem a {
+        font-size: 15px;
+    }
+    .whatsNewsSlider .homeNewsBox,
+    .homeMessageBoardList .homeMessageBoardItem a,
+    .homeEventList .homeEventItem a {
+        padding: 10px 0;
+    }
+    .whatsNewsSlider .playPause {
+        top: -48px;
+    }
+    .homeFeedTab .playPause {
+        top: -48px;
+    }
+    .homeFeedTab .viewAll {
+        top: 0;
+    }
+    .electronics .discriptionCaption:before {
+        height: 186px;
+    }
+    .copyrightRow,
+    .footerRow {
+        padding: 15px 0;
+    }
+    .homeImpLinks {
+        padding: 15px 0;
+    }
+    .atGlance {
+        padding-bottom: 25px;
+    }
+    .newsLetterFieldWrap input[type="text"] {
+        height: 36px;
+        padding: 5px 15px;
+    }
+    .newsLetterFieldWrap .submit {
+        height: 36px;
+        width: 36px;
+        font-size: 14px;
+    }
+    .newsLetterFieldWrap {
+        padding-right: 36px;
+    }
+    .innerBanner,
+    .innerBanner .pageBannerImg {
+        height: 380px;
+    }
+    .pageTitleWrap {
+        height: 200px;
+    }
+    .pageTitle h1 {
+        font-size: 33px;
+    }
+    .homeBanner h1 {
+        font-size: 31px;
+    }
+    .careerHomeList .viewAll.rightTopLink {
+        top: 5px;
+        right: 10px;
+    }
+    .labHomeCareersSlider .careerSliderArrow,
+    .labHomeSingleCareersSlider .careerSliderArrow {
+        top: -49px;
+    }
+    .whatsNewsRow .eventsBoxHomeLab .viewAll.rightTopLink {
+        top: 7px;
+    }
+    /*.homeVideoList .videoPoster, .homePhotoAlbum .imgHolder{width: 45%}*/
+    /*.homePhotoAlbum .imgHolder { height: 109px;}*/
+    /*.homeVideoList .videoDetail, .homePhotoAlbum .homeAlbumTitle{width: 55%;padding-left: 15px;}*/
+    .homePhotoAlbum .homeAlbumTitle h3,
+    .homeVideoList .videoDetail h3 {
+        margin-bottom: 5px;
+    }
+    .homeVideoList .videoDetail p,
+    .homePhotoAlbum .homeAlbumTitle p {
+        height: 70px;
+    }
+    .footerMenuLinks li a:before {
+        top: 1px;
+    }
+    .citizenCharter {
+        margin: -20px 0;
+    }
+    .citizenCharter .resTab .tabContainer {
+        padding: 30px 20px 20px 20px;
+    }
+    .czContactInfo {
+        padding: 40px 0 30px 0;
+    }
+    /*.ministerMainRow { max-width: 870px; padding: 25px; }*/
+    .ministerMainRow .cols6 {
+        width: 34%;
+    }
+    /****Headquarter Cluster page css start****/
+    .whatsNewList.withBoxShadow {
+        padding: 20px 25px;
+    }
+    .whatsNewList.withBoxShadow .viewAll {
+        top: 28px;
+    }
+    .whatsNewList.withBoxShadow .playPause {
+        top: 25px;
+    }
+    .whatsNewList ul li .homeNewsTitle {
+        font-size: 15px;
+    }
+    .whatsNewList.withBoxShadow .viewAll {
+        font-size: 14px;
+    }
+    .headClustList.col2 li a {
+        font-size: 18px;
+    }
+    .homeLabBox h3 {
+        font-size: 16px;
+    }
+    .techHomeProducs {
+        padding: 15px 0 0;
+    }
+    .techHomeProducs h2 {
+        margin-bottom: 5px;
+    }
+    .techWwhatsNewList .viewAll {
+        top: 56px;
+        right: 65px;
+    }
+    .techCluEvent {
+        padding: 10px 0 0 0;
+    }
+    .techCluEvent .container {
+        padding-bottom: 20px;
+    }
+    .techCluEventList .viewAll {
+        top: -45px;
+    }
+    .techCluEventList .techCluEventArrow {
+        top: -49px;
+    }
+    .productImageSlider .sliderAmallArrow {
+        top: -51px;
+    }
+    .headClustList li a:after {
+        font-size: 30px;
+        top: 11px;
+    }
+    .proListingSection .proLIsting {
+        margin: 0 -10px;
+    }
+    .proListingSection .proLIsting li {
+        padding: 10px;
+    }
+    .proListingSection .proLIsting li .proTitle {
+        padding: 10px;
+    }
+    .proListingSection .proLIsting li .proTitle a {
+        font-size: 19px;
+    }
+    .whoIsWho .resTab {
+        margin-top: 30px;
+    }
+    .contactList h2 {
+        font-size: 17px;
+    }
+    .contactList ul li {
+        padding: 5px 0;
+    }
+    .contactList .labelText {
+        top: 5px;
+    }
+    .mainContact {
+        margin: 10px auto 20px auto;
+    }
+    .agenciesContactList .listINN li {
+        width: 100%;
+    }
+    .totWrapRow {
+        padding: 20px 10px;
+    }
+    .subSiteHomeBanner .swiper-container,
+    .subSiteHomeBanner,
+    .subSiteHomeBanner .bannerImg,
+    .subSiteHomeBanner .videoWrap,
+    .subSiteHomeBanner {
+        height: 370px;
+        overflow: hidden;
+    }
+    .techWwhatsNewsRow .row .leftCol {
+        padding: 50px 25px 10px 25px;
+    }
+    .corporateDir .container {
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+    .corporateDirList .glanceBox .linkText {
+        padding: 26px 20px;
+        min-height: 190px;
+    }
+    .view-career-vacancy table th:nth-child(3),
+    .view-career-vacancy table td:nth-child(3) {
+        width: 120px;
+    }
+    .view-career-vacancy table th:nth-child(6),
+    .view-career-vacancy table td:nth-child(6) {
+        width: 220px;
+    }
+    .view-career-vacancy table th:nth-child(5),
+    .view-career-vacancy table td:nth-child(5) {
+        width: 150px;
+    }
+    .technologiesProductSlider .productImg h3 {
+        font-size: 18px;
+    }
+    .labHomeSingleCareersSlider .careerSliderArrow {
+        top: -58px;
+    }
+    .missionVision.missionVisionBg {
+        margin-bottom: 0;
+    }
+    .technologiesProductSlider .swiper-container {
+        padding: 10px 40px 15px 40px;
+    }
+    /*.missionVision.missionVisionBg .cols6{width: auto;}*/
+    .missionVision.missionVisionBg .cols6 img {
+        width: 100%;
+    }
+    /*.missionVision.missionVisionBg .cols6:last-child {float: left; width: 25%;}
+.missionVision.missionVisionBg .cols6:first-child {float: right; width: 73%;}*/
+    .missionVision .missionBlockWrap {
+        max-width: 100%;
+    }
+    .missionVision.missionVisionBg .cols6 .missionBlockWrap .bulletText.whiteText {
+        margin: 0;
+    }
+    .atGlance ul li {
+        padding: 0 18px;
+    }
+    .homeImpLinks ul li {
+        width: 16%;
+    }
+    .whoIsWho .resTab .tabNav li a {
+        font-size: 17px;
+    }
+    .citizenCharter:before {
+        height: 500px;
+    }
+    .boxListData ul {
+        margin: 0 -20px;
+    }
+    .boxListData ul li {
+        padding: 20px;
+    }
+    /*#homeTwitter .homeSocialFeed, #homeFacebook .homeSocialFeed {height: 340px !important;}*/
+    .node-vendor-registration-form .multi-steps-label .step-label {
+        margin: 0 35px;
+    }
+    .node-vendor-registration-form .multi-steps-label .step-label::before {
+        width: 70px;
+    }
+    .homeFeedTab .tabNav li a .fa {
+        top: 4px;
+    }
+    .productImageSlider .titleStyle {
+        font-size: 16px;
+    }
+    .navalSystems .rightImg {
+        margin-bottom: -15px;
+        margin-right: 0;
+    }
+    .whatsNewsRow:after {
+        margin-left: 197px;
+    }
+    #content {
+        min-height: 1px;
+    }
+    .techCluEventBox {
+        min-height: 320px;
+    }
+    .boxListData ul li .titleText {
+        font-size: 16px;
+    }
+    .whatsNewList ul li .dateBlock {
+        padding: 5px;
+    }
+    .whatsNewList.defaultNews ul li a {
+        padding: 15px 0 15px 85px;
+        min-height: 94px;
+    }
+    .whatsNewList ul li a {
+        min-height: 94px;
+    }
+    .subSiteHomeBanner h1 {
+        font-size: 1.4em;
+    }
+    .siteHeaderTitle {
+        font-size: 15px;
+        padding-top: 0;
+    }
+    .subSiteHomeBanner .subSiteHomeBannerDetail {
+        padding-left: 20px;
+    }
+    .mainCintactBox {
+        min-height: 360px;
+    }
+    .homeFeedTab .tabNav li a {
+        padding: 2px 10px;
+    }
+    .tickerExtra {
+        height: 340px !important;
+    }
+    .monographListSection .monographList li .fieldContent .yearsAuthor strong {
+        display: block;
+    }
+    .monographListSection .monographList li .fieldContent .writings-author span .authorofName {
+        width: auto;
+        float: left;
+        display: block;
+    }
+    .monographListSection .monographList li .fieldContent .writings-author span.yearofPublishing strong {
+        display: inline-block;
+    }
+    .allTechnicalClusters {
+        display: none;
+    }
+    .discriptionCaption .techTitle {
+        max-width: 410px;
+    }
+    .ceptmAdvMenu.ceptmAdvSidebar {
+        width: 38%;
+    }
+    .ceptmAdvContentSection {
+        width: 60%;
+    }
+}
+
+@media screen and (height: 1024px) {
+    #content {
+        min-height: 400px;
+    }
+}
+
+@media screen and ( max-width:1279px) {
+    /***home page***/
+    .drdoNewsRow:before {
+        margin-left: 176px;
+    }
+    .drdoNewsRow:after {
+        margin-right: 176px;
+    }
+    .combatEquipmentList .combatBoxOuter .btnSet {
+        left: 10px;
+        right: 10px;
+    }
+    .mediaGallery .homePhotoGallery {
+        padding-right: 20px;
+    }
+    .mediaGallery .homeVideoGallery {
+        padding-left: 20px;
+    }
+    .czContactInfo ul {
+        margin: 0 -20px;
+    }
+    .czContactInfo ul li {
+        padding: 0 20px;
+    }
+    .citizenCharter .resTab .tabNav li .titleText {
+        font-size: 15px;
+    }
+    .citizenCharter .resTab .tabContainer {
+        padding: 30px;
+    }
+    .ministerList li {
+        width: 50%;
+    }
+    .whoIsWho .resTab .tabNav li a {
+        font-size: 17px;
+    }
+    .item-list .techClustersList li {
+        width: 33.333%;
+    }
+    .atGlance ul li {
+        padding: 0 10px;
+    }
+    .headClustList li {
+        width: 50%;
+    }
+    .view-labs-and-establishments .item-list ul li {
+        width: 33.33%;
+    }
+    .ministerMainRow .cols6 {
+        width: 50%;
+    }
+    .contactList>li {
+        width: 50%;
+    }
+    .techLabsList ul {
+        margin: 0 -5px;
+    }
+    .techLabsList ul li {
+        padding: 5px;
+        margin-bottom: 0;
+    }
+    .whoIsWho .resTab .tabNav li a {
+        padding: 15px 35px;
+    }
+    .labEventList ul li .newsCategory {
+        border: 0;
+        padding-left: 0;
+        margin-left: -20px;
+        display: block;
+        font-size: 13px;
+    }
+    .node-vendor-registration-form .multi-steps-label .step-label {
+        font-size: 20px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+    .node-vendor-registration-form .multi-steps-label .step-label::before {
+        top: 25px;
+    }
+    .node-vendor-registration-form .multi-steps-label span.paymentIcon {
+        background-size: 60%;
+        background-position: center center;
+    }
+    .drdoNewsRow h2,
+    .homeFeedTab .tabNav li a {
+        font-size: 20px;
+        padding: 0 5px;
+    }
+    .homeFeedTab .tabNav li a .fa {
+        font-size: 25px;
+    }
+    /*.technologiesProductSlider.noSlider .swiper-slide { width: 32%; }*/
+    .technologiesProductSlider.noSlider .productImg {
+        border: 5px solid #fff;
+    }
+    .technologiesProductSlider.noSlider .swiper-slide {
+        padding: 7px;
+    }
+    .labEventList ul {
+        margin: 0 -10px;
+    }
+    .labEventList ul li {
+        padding: 10px;
+    }
+    .boxListData ul li .dataWrapBox {
+        min-height: 260px;
+    }
+    .view-headquarter-directorate .boxListData ul li .dataWrapBox {
+        min-height: 290px;
+    }
+    .whatsNewsRow:after {
+        margin-left: 172px;
+    }
+    .subSiteHomeBanner .swiper-container,
+    .subSiteHomeBanner,
+    .subSiteHomeBanner .bannerImg,
+    .subSiteHomeBanner .videoWrap,
+    .subSiteHomeBanner {
+        height: 330px;
+    }
+    #content {
+        min-height: 1px;
+    }
+    .homeLabBox {
+        min-height: 310px;
+    }
+    .subSiteHomeBanner h1 {
+        font-size: 1.29em;
+        margin-bottom: 10px;
+    }
+    .subSiteHomeBanner h2,
+    .subSiteHomeBanner h3,
+    .subSiteHomeBanner h4,
+    .subSiteHomeBanner h5 {
+        font-size: 1.1em;
+    }
+    .subSiteHomeBanner p {
+        margin-bottom: 15px;
+        font-size: 0.938em;
+    }
+    .subSiteHomeBanner .knowMore {
+        font-size: 0.938em;
+    }
+    .siteHeaderTitle {
+        min-height: 60px;
+    }
+    .labWhatsNewsRow .careerHomeList {
+        padding-left: 15px;
+    }
+    .labWhatsNewsRow.whatsNewsRow:after {
+        margin-left: 188px;
+    }
+    .whatsNewsRow h3 {
+        font-size: 1.263em;
+    }
+    .subSiteHomeBanner ul {
+        margin-bottom: 10px;
+    }
+    .sectionOne.alignLeft,
+    .sectionTwo.alignRight {
+        float: none !important;
+    }
+    .tickerExtra {
+        height: 400px !important;
+    }
+}
+
+@media screen and ( max-width:1169px) {
+    /***home page***/
+    .homeImpLinks ul li {
+        width: 33.33%;
+    }
+    .atGlance .glanceBox p {
+        font-size: 18px;
+    }
+    .atGlance ul li {
+        padding: 18px 10px
+    }
+    .atGlance ul {
+        margin: 0 -10px;
+    }
+    .atGlance .glanceBox {
+        box-shadow: 0 0 13px rgba(0, 0, 0, 0.16);
+    }
+    .combatEquipmentList .combatBoxOuter .combatEquipmentTitle {
+        font-size: 24px;
+    }
+    .combatEquipmentSlider .swiper-container {
+        padding: 0 50px;
+    }
+    .discriptionCaption .techTitle {
+        font-size: 25px;
+    }
+    .lang-hi .discriptionCaption .techTitle {
+        font-size: 22px;
+    }
+    .discriptionCaption .srNo {
+        font-size: 32px;
+    }
+    .combatEquipmentList .combatBoxOuter .btnSet {
+        left: 15px;
+        right: 15px;
+        text-align: center;
+        bottom: 30px;
+        opacity: 1;
+        visibility: visible;
+    }
+    .darkBg {
+        height: 70%;
+    }
+    .homeImpLinks ul {
+        margin: 0 -15px;
+    }
+    .homeImpLinks ul li {
+        padding: 5px 15px;
+    }
+    .discriptionCaption .commonBtn,
+    .discriptionCaption:hover .commonBtn {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+    /*.navalSystems .discriptionCaption { padding: 70px 0; }*/
+    .combatEquipmentList .darkBg,
+    .combatEquipmentList .combatBoxOuter:hover .darkBg {
+        height: 100px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .aboutDrdo .rightImg {
+        max-width: 400px;
+        margin: 0 0 50px 50px;
+    }
+    .aboutDrdo .rightImg:before {
+        left: -20px;
+        bottom: -20px;
+        top: 45px;
+        right: 45px;
+    }
+    .fullscreenDown .goToSection {
+        display: none !important;
+    }
+    .innerBanner,
+    .innerBanner .pageBannerImg {
+        height: 380px;
+    }
+    .pageTitleWrap {
+        height: 203px;
+    }
+    .videoWrap,
+    .homeBanner .bannerImg {
+        height: 470px;
+    }
+    /****Headquarter Cluster page css start****/
+    .headClustList li a {
+        font-size: 18px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+    }
+    .headClustList li {
+        width: 50%;
+    }
+    .logoAndMenuRow {
+        padding: 20px 0 0 0;
+    }
+    .productVideos ul li .videoPoster a::before {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 22px;
+        margin: -25px 0 0 -25px;
+    }
+    /*body { font-size: 15px; }*/
+    .techCluEventList .techCluEventArrow {
+        top: -51px;
+    }
+    .proListingSection .proLIsting li .proSec:hover .proTitle {
+        padding: 10px;
+    }
+    .proListingSection .proLIsting li .proTitle a {
+        font-size: 17px;
+    }
+    /* Labs and Establishments */
+    .technologiesProductSlider .swiper-slide a:hover .productImg {
+        transform: none;
+        -webkit-transform: none;
+    }
+    .technologiesProductSlider .careerSliderArrow {
+        position: absolute;
+        width: 130px;
+        top: 20px;
+        z-index: 99999;
+        right: 0;
+    }
+    .technologiesProductSlider .swiper-button-prevProduct {
+        margin-left: 0;
+    }
+    .technologiesProductSlider .swiper-button-nextProduct {
+        margin-right: 0;
+    }
+    .missionVision.missionVisionBg {
+        margin-bottom: 0;
+    }
+    .missionVision.missionVisionBg {
+        background: url(../images/lab-establishments/mission-vision-bg.jpg) no-repeat 0 0;
+        background-size: cover;
+    }
+    /*.missionVision.missionVisionBg .cols6 {width: 50%; float: right;}*/
+    .corporateDirList .glanceBox p {
+        font-size: 15px;
+    }
+    .whatsNewsRow::before {
+        margin-right: 172px;
+    }
+    .eventsBoxHomeLab {
+        padding: 0;
+    }
+    .eventsBoxHomeLab .viewAll.rightTopLink {
+        right: 15px;
+    }
+    .cols4.careerHomeList {
+        padding: 0 0 15px 0;
+    }
+    .subSiteHomeBanner .subSiteHomeBannerDetail {
+        padding-left: 20px;
+    }
+    .siteHeaderTitle {
+        min-height: 58px;
+        padding-top: 3px;
+    }
+    .subSiteHomeBanner p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .careerHomeList .viewAll.rightTopLink {
+        right: 20px;
+    }
+    .labHomeSingleCareersSlider .careerSliderArrow {
+        right: 10px;
+    }
+    .technologiesProductSlider {
+        margin: 0 -10px;
+    }
+    .technologiesProductSlider .swiper-container {
+        padding: 0 50px;
+        margin: 0;
+    }
+    .technologiesProductSlider .productImg {
+        -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    }
+    .technologiesProductSlider .swiper-slide {
+        padding: 8px 0;
+    }
+    .technologiesProductSlider a .productImg:before {
+        display: none;
+    }
+    .technologiesProductSlider .productImg h3 {
+        padding: 15px 10px;
+        background: rgb(7, 46, 103, 0.7);
+        bottom: 0;
+    }
+    .technologiesProductSlider img {
+        opacity: 1;
+    }
+    .technologiesProductSlider .careerSliderArrow {
+        display: none;
+    }
+    .homeImpLinks ul li {
+        width: 16%;
+    }
+    .subSiteHomeBanner .swiper-container,
+    .subSiteHomeBanner,
+    .subSiteHomeBanner .bannerImg,
+    .subSiteHomeBanner .videoWrap,
+    .subSiteHomeBanner {
+        height: 280px;
+        overflow: hidden;
+    }
+    .headClustList li a,
+    .contentPage .headClustList li a {
+        font-size: 18px;
+    }
+    .technologiesProductSlider.noSlider {
+        margin: 0 !important;
+        padding-bottom: 15px;
+    }
+    .technologiesProductSlider .swiper-container {
+        padding: 0 !important;
+    }
+    .combatEquipmentList .combatBoxOuter .combatEquipmentTitle,
+    .combatEquipmentList .combatBoxOuter .btnSet {
+        position: static;
+    }
+    .combatEquipmentList .combatBoxOuter .proBotBlk {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 15px 10px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .combatEquipmentList .darkBg,
+    .combatEquipmentList .combatBoxOuter:hover .darkBg {
+        display: none;
+    }
+    .combatEquipmentList .combatBoxOuter .combatEquipmentTitle {
+        font-size: 16px;
+        text-align: center;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .productImageSlider .swiper-slide {
+        width: 33.333%;
+    }
+    .productImageSlider .swiper-container.swiper-container-horizontal {
+        float: none;
+        width: auto;
+    }
+    .whatsNewsRow:after {
+        margin-left: 163px;
+    }
+    .techCluEventBox,
+    .techCluEventBox p {
+        min-height: 1px;
+    }
+    .labMissionVision .missionBlock {
+        padding-left: 20px;
+    }
+    .topStrip {
+        position: static;
+    }
+    #header {
+        padding-top: 0;
+    }
+    .productImageSlider ul li {
+        width: 33.333%;
+    }
+    .subSiteHomeBanner h1 {
+        font-size: 18px;
+    }
+    .subSiteHomeBanner h2,
+    .subSiteHomeBanner h3,
+    .subSiteHomeBanner h4,
+    .subSiteHomeBanner h5 {
+        font-size: 16px;
+    }
+    .subSiteHomeBanner p,
+    .subSiteHomeBanner .knowMore {
+        font-size: 15px;
+    }
+    .whatsNewsRow.labWhatsNewsRow .cols4.careerHomeList {
+        padding: 0 15px;
+    }
+    .combatEquipment .textCenter {
+        text-align: center;
+    }
+    .sWob .menuBar {
+        background: #B2563D;
+    }
+    .sWob .searchBoxWrap .form-search {
+        background: #913F29;
+    }
+    .sWob #header {
+        background: #80402E;
+    }
+    .sWob .mobileNav {
+        background: #80402E;
+    }
+    .sWob .mobileNav #navMob {
+        background: #B2563D;
+    }
+    .sWob .mobileNav .navigationText {
+        color: #fff;
+    }
+    .sWob #navMob>li>a:hover,
+    .sWob #navMob>li.hover>a,
+    .sWob #navMob>li.focus>a,
+    .sWob #navMob>.highlight>a {
+        background-color: #9F513B;
+    }
+    .sWob #navMob li a {
+        border-bottom: 1px solid #80402E;
+    }
+    .sWob .mobileNav .close {
+        background-color: #9F513B;
+    }
+    .sWob #navMob li .menuIcon,
+    .sWob #navMob li li .menuIcon {
+        background-color: #9F513B;
+    }
+    .sWob #navMob li ul {
+        background: #9F513B;
+    }
+    .sWob #navMob li ul::after {
+        background: #9F513B;
+    }
+    .sWob #navMob li ul li a:hover,
+    .sWob #navMob li ul li>a.selected,
+    .sWob #navMob ul a:hover,
+    .sWob.noJS #navMob ul a:focus,
+    .sWob #navMob ul a.selected,
+    .sWob #navMob ul>.highlight>a,
+    .sWob #navMob>li.MenuLi1>ul>li:hover>a,
+    .sWob #navMob>li>ul>li>a:hover,
+    .sWob #navMob>li>ul>li.current>a:hover,
+    .sWob #navMob>li>ul>li:hover>a {
+        background-color: #B2563D;
+    }
+    .view-employee-corner .employeeDashboardList ul li {
+        width: 50%;
+    }
+}
+
+@media screen and ( max-width:1023px) {
+    /***home page***/
+    .drdoNewsRow .row .cols4 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .drdoNewsRow .region-whats-new-section .row .cols4 {
+        margin-bottom: 30px;
+    }
+    .drdoNewsRow .row>.cols4:last-child {
+        margin-bottom: 0;
+    }
+    .drdoNewsRow .row .cols4:last-child .homeFeedTab .tabContent {
+        padding-bottom: 0;
+    }
+    .drdoNewsRow .row .cols4:last-child .homeSocialFeed {
+        margin-bottom: 0;
+    }
+    .homeMessageBoardList ul,
+    .homeEventList ul,
+    .whatsNewsSlider .activityTicker {
+        left: 0;
+        right: 0;
+    }
+    .homeMessageBoardList .tickerDivBlock,
+    .homeEventList .tickerDivBlock,
+    .whatsNewsSlider .tickerDivBlock {
+        margin-bottom: 20px;
+    }
+    .drdoNewsRow h2 {
+        margin-bottom: 10px;
+    }
+    .aeronautics {
+        position: relative;
+        background: #38a7ec;
+    }
+    /*.aeronautics:before{position: absolute;content:'';left: 0; right: 0; top: 0; bottom: 0; background:rgba(72, 175, 241, 0.87);width: 100%; height:500px;}*/
+    .discriptionCaption .techTitle {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .lang-hi .discriptionCaption .techTitle {
+        font-size: 25px;
+    }
+    .discriptionCaption .shortDescription {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .discriptionCaption .srNo {
+        font-size: 36px;
+    }
+    .engineeringScience .cols6 {
+        width: 100%;
+        position: relative;
+    }
+    .combatEngineering:before {
+        width: 100%;
+        height: 100%;
+    }
+    .coputationalSystem {
+        left: 0;
+    }
+    .atGlance ul {
+        text-align: center;
+    }
+    .atGlance ul li {
+        width: 32%;
+        padding: 10px;
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+    }
+    .combatEquipment h2,
+    .atGlance h2,
+    .mediaGallery h2 {
+        margin-bottom: 20px;
+        line-height: 1;
+    }
+    .drdoNewsRow h2,
+    .homeFeedTab .tabNav li a,
+    .combatEquipment h2,
+    .atGlance h2,
+    .mediaGallery h2,
+    .discriptionCaption .techTitle,
+    .clustersTitle,
+    h2,
+    .whatsNewsRow h2,
+    .missionVision h2,
+    .labHomeProducs h2,
+    .techHomeProducs h2,
+    .techCluEvent h2,
+    .commonContent h2,
+    .combatEquipment h2,
+    .atGlance h2,
+    .mediaGallery h2,
+    .clustersTitle {
+        font-size: 24px;
+    }
+    .lang-hi .discriptionCaption .techTitle {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .combatEquipmentList .combatBoxOuter .combatEquipmentTitle {
+        font-size: 20px;
+    }
+    .mediaGallery .homePhotoGallery {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 30px;
+        border: none !important;
+    }
+    .homeFeedTab .imgHolder img {
+        max-width: 400px;
+        width: 100%;
+    }
+    .mediaGallery .homeVideoGallery {
+        width: 100%;
+        padding: 0;
+        border: 0;
+    }
+    .mediaGallery .viewAll {
+        top: -44px;
+    }
+    /*.homeVideoList .videoPoster{width:100%;height: 230px;}*/
+    .videoPoster img {
+        width: 100%;
+    }
+    .homeVideoList .videoDetail {
+        width: 100%;
+        padding: 10px 0 0 0
+    }
+    .homeVideoList li {
+        margin-bottom: 8px;
+    }
+    .homeSocialFeed img {
+        width: 100%;
+    }
+    .twoColsfull {
+        margin-top: 0;
+    }
+    .cols11.navalSystems {
+        width: 100%;
+        background: #34a6eb;
+    }
+    .mem .leftBg {
+        display: none;
+    }
+    .cols6.missiles {
+        width: 100%;
+    }
+    .cols6.electronicsMaterials {
+        width: 100%;
+        left: 0;
+        position: relative;
+    }
+    .electronics {
+        max-width: 100%;
+        width: 100%;
+        background: #1198d0;
+        padding: 0 15px;
+    }
+    .materials {
+        width: 100%;
+        min-height: 1px;
+        overflow: hidden;
+        background: #d75071;
+        padding: 0 15px;
+    }
+    .discriptionCaption {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .threeColumns .discriptionCaption {
+        min-height: 1px;
+    }
+    .materials .discriptionCaption {
+        max-width: 100%;
+    }
+    .threeColumns .row .cols6.electronics,
+    .threeColumns .row .cols6.materials {
+        max-width: none;
+        margin: 0 -10px;
+        width: auto;
+        float: none;
+    }
+    .discriptionCaption.commonPad {
+        padding: 20px 0;
+    }
+    .cols6.combatEngineering {
+        background: #397083;
+    }
+    .combatEngineering:before {
+        display: none;
+    }
+    .cols6.coputationalSystem {
+        background: #5455ca;
+        padding-left: 15px;
+    }
+    .cols6.missiles {
+        background: #2d3d71;
+    }
+    h2.techTitle br {
+        display: none;
+    }
+    .twoColsfull .imagePositioning {
+        position: relative;
+    }
+    .imagePositioning img {
+        display: none;
+    }
+    .navalSystems .rightImg {
+        display: none;
+    }
+    .threeColumns .row .cols6 {
+        padding: 0 15px;
+    }
+    .combatEquipmentList .combatBoxOuter .commonBtn {
+        padding: 0 50px;
+        height: 33px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .borderBtn.whiteBtn {
+        margin-left: 0;
+        margin-top: 10px;
+        height: 33px;
+        line-height: 33px;
+        padding: 0 20px;
+        font-size: 15px;
+    }
+    .btnSet .commonBtn {
+        display: block;
+        float: none;
+    }
+    .borderBtn.whiteBtn {
+        display: block;
+        float: none;
+    }
+    .footerRow .row .cols6+.cols3 {
+        width: 100%
+    }
+    .homeBanner h1 {
+        font-size: 29px;
+    }
+    .whatsNewsSlider .playPause {
+        top: -44px;
+    }
+    .homeFeedTab .playPause {
+        top: -49px;
+    }
+    .discriptionCaption .shortDescription br {
+        display: none;
+    }
+    .discriptionCaption .shortDescription {
+        line-height: 1.4;
+    }
+    /*.combatEquipmentList .combatBoxOuter .btnSet { bottom: 13px; }*/
+    .homePhotoAlbum .imgHolder img {
+        width: 100%;
+    }
+    /*.homePhotoAlbum .imgHolder { height: 400px; }*/
+    .innerBanner,
+    .innerBanner .pageBannerImg {
+        height: 360px;
+    }
+    .pageTitleWrap {
+        height: 178px;
+    }
+    .aboutDrdo .rightImg {
+        max-width: 280px;
+    }
+    .missionVision {
+        background: #6395ce;
+    }
+    .missionVision .cols6 {
+        float: none;
+        width: auto;
+    }
+    .innerBanner .innerBannerCaption {
+        max-width: 100%;
+    }
+    .citizenCharter .resTab .tabNav {
+        display: none;
+    }
+    .citizenCharter .resTab .r-tabs-accordion-title {
+        display: block;
+    }
+    .citizenCharter:before,
+    .citizenCharter .resTab .r-tabs-accordion-title .icon {
+        display: none;
+    }
+    .citizenCharter .resTab .tabContainer {
+        padding: 0;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    .citizenCharter .resTab .r-tabs-accordion-title .titleText {
+        display: block;
+    }
+    .citizenCharter .resTab .r-tabs-accordion-title .titleText br {
+        display: none;
+    }
+    .resTab .tabContent {
+        padding: 15px 0;
+    }
+    .citizenCharter .tabContainer h2,
+    .czContactInfo h2 {
+        font-size: 22px;
+        line-height: 1.2;
+    }
+    .citizenCharter .tabContainer h3 {
+        font-size: 20px;
+    }
+    .czContactInfo {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .czContactInfo h2 {
+        margin-bottom: 10px;
+    }
+    .czContactInfo ul li {
+        float: none;
+        width: auto;
+        min-height: 1px;
+        margin-bottom: 20px;
+    }
+    /*.ministerMainRow { padding: 20px; }*/
+    .whoIsWho h2 {
+        font-size: 22px;
+    }
+    .ministerGrayBox {
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+    .whoIsWho .resTab .tabNav li a {
+        padding: 15px;
+    }
+    .whoIsWho .resTab {
+        margin-top: 40px;
+    }
+    .whoIsWho .resTab .tabContent {
+        padding-bottom: 0;
+    }
+    .ministerGrayBox .ministerName {
+        font-size: 20px;
+    }
+    .ministorProfile .leftCol {
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto;
+        float: none;
+    }
+    .ministorProfile .rightCol {
+        float: none;
+        width: auto;
+        padding: 20px 0 0 0;
+    }
+    .item-list .techClustersList {
+        margin: 0 -5px;
+    }
+    .item-list .techClustersList li {
+        padding: 5px;
+    }
+    .techClustersList .techBox {
+        padding: 5px;
+    }
+    .techClustersList .bottomBlock {
+        padding: 15px 5px;
+    }
+    .listingDetail .field--name-field-event-image,
+    .listingDetail .field--name-field-image {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    .combatEquipmentList .combatBoxOuter .btnSet a {
+        display: block;
+    }
+    .combatEquipmentList .combatBoxOuter .btnSet a:last-child {
+        margin-top: 10px;
+    }
+    .drdoNewsRow:before,
+    .drdoNewsRow:after {
+        display: none;
+    }
+    .homeFeedTab.socialFeed .tabNav li {
+        width: auto;
+    }
+    .electronics .discriptionCaption:before {
+        display: none;
+    }
+    .footerMenuLinks li {
+        width: 33.333%;
+    }
+    .innerBanner,
+    .innerBanner .pageBannerImg,
+    .pageTitleWrap {
+        height: 200px;
+    }
+    /****Headquarter Cluster page css start****/
+    .subSiteHomeBanner .subSiteHomeBannerDetail {
+        padding-left: 15px;
+    }
+    .subSiteHomeBanner h1 {
+        font-size: 20px;
+    }
+    .subSiteHomeBanner p {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    .graySection .cols6 {
+        width: 100%;
+    }
+    .graySection .cols6:nth-child(2) {
+        margin-top: 30px;
+    }
+    .whatsNewList.withBoxShadow {
+        box-shadow: 0 0 18px rgba(0, 0, 0, 0.18);
+    }
+    .whatsNewList.defaultNews .tickerDivBlock {
+        height: 250px !important;
+    }
+    .corporateDirList ul li {
+        width: 32%;
+        padding: 10px 8px;
+    }
+    .corporateDirList .glanceBox p {
+        font-size: 14px;
+    }
+    .corporateDirList ul {
+        margin: 0 -8px;
+    }
+    .corporateDirList .glanceBox {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    }
+    .corporateDirList .glanceBox .icon {
+        margin: 0 auto;
+        transform: scale(0.8);
+    }
+    .videoWrap,
+    .homeBanner .bannerImg {
+        height: 350px;
+    }
+    .mediaGallery .homePhotoGallery {
+        border-right: 0;
+    }
+    .headClustList.col2 {
+        margin: 0;
+    }
+    .siteHeaderTitle {
+        display: block;
+        vertical-align: middle;
+        border: 0;
+        margin: 0;
+        width: 100%;
+        padding-left: 0;
+        min-height: 1px;
+        padding-top: 8px;
+    }
+    .siteHeaderTitle br {
+        display: none
+    }
+    /* Technical clusters Inner pages */
+    .techWwhatsNewsRow .row .leftCol {
+        width: 100%;
+        box-shadow: none;
+        padding: 20px;
+        min-height: auto;
+        background: none;
+    }
+    .techWwhatsNewsRow .row .rightCol {
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .techWwhatsNewsRow:before,
+    .techWwhatsNewsRow:after {
+        display: none;
+    }
+    /*.techWwhatsNewsRow {background-color: #f2f2f2;}*/
+    .techWwhatsNewsRow .whatsNewList ul li a {
+        min-height: 90px;
+    }
+    .whatsNewsRow .tickerDivBlock {
+        height: 280px !important;
+    }
+    /*.techWwhatsNewsRow .row .rightCol h2 {color: #2d2d2d;}
+.labHomeCareersSlider .careerSliderArrow, .labHomeSingleCareersSlider .careerSliderArrow, .techCluEventList .techCluEventArrow {top: -49px;}
+.techLabsBlock .swiper-button-next .fa, .techLabsBlock .swiper-button-prev .fa{color: #595959;}
+.swiper-button-prev:hover .fa{color: #fff;}*/
+    .techCluEventList .viewAll {
+        top: -44px;
+    }
+    /*.homeVideoList .videoPoster, .homePhotoAlbum .imgHolder { width: 30%; }
+.homeVideoList .videoDetail, .homePhotoAlbum .homeAlbumTitle { width: 70%; padding: 0 0 0 20px; }*/
+    .techHomeProducList .productBox h3 {
+        font-size: 18px;
+    }
+    .techHomeProducList .productBox .bottomBox {
+        padding: 10px 5px;
+    }
+    .productDetail .productRightDetail .cateBlock {
+        float: none;
+        padding-right: 0;
+        width: auto;
+    }
+    .productImageSlider .swiper-slide a:before {
+        opacity: 1;
+        visibility: visible;
+    }
+    .productVideos ul li .videoPoster a:hover:before {
+        background: #fff;
+        color: #023c73;
+    }
+    .headClustList li a:after,
+    .headClustList li a:hover:after {
+        right: 12px;
+        top: 10px;
+        font-size: 30px;
+    }
+    .headClustList li a {
+        padding: 20px 25px 20px 20px;
+    }
+    .view-photo-gallery .imgStyle,
+    .page-node-type-photo-gallery .imgStyle,
+    .page-node-type-photo-gallery .photo-outer .imgStyle a,
+    .page-video-gallery .videoGallery .imgStyle,
+    .video-listing .video-section li .imgStyle {
+        height: 102px;
+        display: block;
+    }
+    .view-photo-gallery .titleStyle,
+    .page-node-type-photo-gallery .titleStyle,
+    .page-video-gallery .videoGallery .photo-outer .videoCaption,
+    .video-listing .video-section li .videoOuter .videoCaption {
+        /*padding: 5px 0;*/
+        font-size: 14px;
+        height: 44px;
+    }
+    .view-photo-gallery .photo-outer .imgStyle:before,
+    .page-node-type-photo-gallery .photo-outer .imgStyle a:before,
+    .page-video-gallery .videoGallery li .photo-outer .imgStyle:before,
+    .video-listing .video-section li .videoOuter a:before {
+        opacity: 1;
+        visibility: visible;
+    }
+    .feedback-form .btnCaptchaRow {
+        width: 61%;
+    }
+    .mainContact .contactDetail {
+        padding: 15px 0;
+    }
+    .mainContact p br {
+        display: none;
+    }
+    .mainContact h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .mainContact ul li {
+        margin-bottom: 5px;
+    }
+    .mainContact p {
+        margin-bottom: 10px;
+    }
+    .techLabsList ul li,
+    .foodTechList ul li {
+        width: 50%;
+    }
+    .totWrapRow h2 {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+    .totWrapRow h3 {
+        font-size: 21px;
+        line-height: 1.3;
+    }
+    .techLabsList .techLabsListInn {
+        padding: 15px;
+    }
+    .agenciesContactList {
+        margin-top: 15px;
+    }
+    .labEventList ul li {
+        width: 50%;
+    }
+    .whatsNewsRow .cols4,
+    .whatsNewsRow.noCareerRecord .cols4 {
+        width: 100%;
+    }
+    .whatsNewsRow.noCareerRecord .eventsBoxHomeLab {
+        margin-bottom: 0;
+    }
+    .whatsNewsRow.noCareerRecord {
+        padding-bottom: 0;
+    }
+    .whatsNewsRow:before {
+        display: none;
+    }
+    .whatsNewsRow .whatsNewList {
+        padding-right: 15px;
+        margin-bottom: 20px;
+    }
+    .whatsNewList ul li a {
+        min-height: 90px;
+    }
+    .whatsNewsRow .eventsBoxHomeLab {
+        background-color: #f2f2f2;
+        margin: 0 -10px 20px -10px;
+        padding: 10px;
+    }
+    .whatsNewsRow .eventsBoxHomeLab .eventHomeListWrap {
+        display: inline-block;
+    }
+    .eventHomeListWrap .eventImg {
+        width: 30%;
+        float: left;
+    }
+    .eventHomeListWrap .eventDetails {
+        width: 68%;
+        float: right;
+        padding-right: 10px;
+    }
+    .eventHomeListWrap .eventImg {
+        height: auto;
+    }
+    .whatsNewsRow .eventsBoxHomeLab .viewAll.rightTopLink {
+        right: 20px;
+    }
+    .eventHomeListWrap .eventDetails h3 {
+        font-size: 18px;
+    }
+    .eventHomeListWrap .eventDetails .date {
+        margin-bottom: 10px;
+    }
+    .whatsNewsRow h3 {
+        font-size: 19px;
+    }
+    .homeCareerBox h4 {
+        font-size: 18px;
+    }
+    .eventsBoxHomeLab {
+        padding: 0;
+        position: relative;
+        border-right: none;
+        margin-bottom: 20px;
+    }
+    .eventsBoxHomeLab .viewAll.rightTopLink {
+        right: 0;
+    }
+    .whatsNewsRow .careerHomeList {
+        position: relative;
+    }
+    .labHomeProducs .view-lab-banner {
+        padding-top: 0;
+    }
+    .technologiesProductSlider .swiper-container {
+        padding: 0;
+    }
+    .technologiesProductSlider {
+        padding: 0 40px;
+    }
+    .subSiteHomeBanner .swiper-container,
+    .subSiteHomeBanner {
+        height: 230px;
+    }
+    .techHomeProducs {
+        padding: 15px 0 15px 0;
+    }
+    .techWwhatsNewsRow .row .leftCol,
+    .techWwhatsNewsRow .row .rightCol {
+        padding: 0;
+    }
+    .techWwhatsNewList .viewAll {
+        top: 7px;
+        right: 38px;
+    }
+    .subsite .ministorProfile {
+        max-width: 100%;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        padding: 0 30px;
+    }
+    .subsite .ministorProfile .leftCol .dg-img img {
+        height: auto;
+    }
+    .subsite .ministorProfile .rightCol {
+        width: auto;
+        float: none;
+        text-align: center
+    }
+    .proListingSection .proLIsting li {
+        width: 33.333%;
+    }
+    .labEventList ul {
+        margin: 0 -10px;
+    }
+    .labEventList ul li {
+        padding: 10px;
+    }
+    /* Labs and Establishments */
+    .technologiesProductSlider .careerSliderArrow {
+        top: -30px;
+    }
+    .whatsNewList.withBoxShadow .playPause {
+        right: 25px;
+    }
+    .whatsNewList.withBoxShadow .viewAll {
+        right: 60px;
+    }
+    /*.whatsNewList.defaultNews ul li a { min-height: 104px; }*/
+    .whatsNewList ul {
+        width: 100%;
+    }
+    .subSiteHomeBannerDetail p:first-child {
+        display: none;
+    }
+    .view-career-vacancy table th,
+    .view-career-vacancy table td {
+        text-align: left !important;
+    }
+    .view-career-vacancy table td {
+        border-bottom: 1px solid #dbdbdb;
+        border-right: 0;
+    }
+    .cols4.careerHomeList {
+        padding: 0 15px;
+    }
+    .labHomeSingleCareersSlider .careerSliderArrow {
+        top: -55px;
+    }
+    .careerHomeList .viewAll.rightTopLink {
+        right: 15px;
+    }
+    /*.missionVision.missionVisionBg .cols6:first-child {width: 60%;}
+.missionVision.missionVisionBg .cols6:last-child {width: 40%;}*/
+    .subSiteHomeBanner p,
+    .subSiteHomeBanner h2,
+    .subSiteHomeBanner h3,
+    .subSiteHomeBanner h4,
+    .subSiteHomeBanner h5,
+    .subSiteHomeBanner ul {
+        display: none;
+    }
+    .whatsNewsRow .eventsBoxHomeLab .viewAll.rightTopLink {
+        top: 16px;
+    }
+    .eventHomeListWrap .eventDetails h3 {
+        margin-bottom: 3px;
+    }
+    .labHomeSingleCareersSlider .careerSliderArrow {
+        right: 0;
+    }
+    .labHomeProducs .technologiesProductSlider {
+        padding: 0 0 15px 0;
+    }
+    .labHomeProducs .technologiesProductSlider .swiper-container {
+        padding: 0 50px;
+    }
+    .vendorLeftDetail table .profileBox td {
+        margin: 0;
+        padding: 5px 10px;
+        border: 0;
+        border-bottom: 1px solid #eeeeee;
+        text-align: left !important;
+    }
+    .vendorLeftDetail table .profileBox td:last-child {
+        border-bottom: 0;
+    }
+    .homeImpLinks ul li {
+        width: 22%;
+    }
+    .subSiteHomeBanner .swiper-container,
+    .subSiteHomeBanner,
+    .subSiteHomeBanner .bannerImg,
+    .subSiteHomeBanner .videoWrap,
+    .subSiteHomeBanner {
+        height: 200px;
+        overflow: hidden;
+    }
+    .morLinksSecCareer ul li .button {
+        padding: 5px 10px;
+        margin: 0 2px 10px 0;
+    }
+    .boxListData ul {
+        margin: 0 -5px;
+    }
+    .boxListData ul li {
+        padding: 15px;
+        width: 33.333%;
+    }
+    .node-vendor-registration-form .multi-steps-label .step-label {
+        margin: 0 15px;
+    }
+    .node-vendor-registration-form .multi-steps-label .step-label::before {
+        width: 30px;
+    }
+    .node-vendor-registration-form .multi-steps-label span {
+        white-space: pre-line;
+        font-size: 15px;
+    }
+    .headClustList,
+    .contentPage .headClustList {
+        display: block;
+        margin: 0;
+    }
+    .headClustList li,
+    .contentPage .headClustList li {
+        float: none;
+        width: auto;
+        display: block;
+        padding: 5px 0 !important;
+    }
+    .headClustList li a,
+    .contentPage .headClustList li a,
+    .headClustList li a:hover,
+    .contentPage .headClustList li a:hover {
+        padding: 20px 45px 20px 20px;
+    }
+    .technologiesProductSlider.noSlider .swiper-slide {
+        width: 48%;
+    }
+    .btnCaptchaRow {
+        width: 60%;
+    }
+    .homeFeedTab .tabNav {
+        margin: 0 40px 0 0;
+        display: block;
+    }
+    .mobileFalse .cols1,
+    .mobileFalse .cols2,
+    .mobileFalse .cols3,
+    .mobileFalse .cols4,
+    .mobileFalse .cols5,
+    .mobileFalse .cols6,
+    .mobileFalse .cols7,
+    .mobileFalse .cols8,
+    .mobileFalse .cols9,
+    .mobileFalse .cols10,
+    .mobileFalse .cols11,
+    .mobileFalse .cols12 {
+        float: none;
+        width: auto;
+    }
+    .mem,
+    .threeColumns .discriptionCaption,
+    .discriptionCaption {
+        min-height: 1px;
+    }
+    .whatsNewsRow:after {
+        display: none;
+    }
+    .labMissionVision .row .cols6,
+    .missionVision.missionVisionBg .cols6:last-child {
+        width: auto;
+        float: none;
+    }
+    .labMissionVision .vissionBlock {
+        padding-left: 15px;
+        border-left: 0;
+        border-right: 0;
+    }
+    .whatsNewsRow.labWhatsNewsRow {
+        border-bottom: 0;
+    }
+    .labMissionVision .missionBlock {
+        padding-left: 15px;
+    }
+    .whatsNewsRow.noCareerRecord .eventHomeListWrap .eventImg {
+        height: auto;
+    }
+    .combatEquipment .textCenter {
+        text-align: center;
+        padding-right: 0;
+    }
+    .homeFeedTab .tabNav li a {
+        padding: 0 15px;
+    }
+    .labMissionVision:before {
+        display: none;
+    }
+    .acemImgList {
+        margin: 0;
+    }
+    .acemImgList .cols6 {
+        float: left;
+        width: 50%;
+    }
+    .multiPleImageList {
+        margin: 0 -10px;
+    }
+    .multiPleImageList li {
+        width: 33.333%;
+        padding: 10px !important;
+    }
+    .views-field-field-infrastructure-facilities .largeImgShadow {
+        margin-bottom: 20px;
+    }
+    .facilitiesImgList>.imgHolder {
+        width: 35%;
+    }
+    .facilitiesImgList .rightBlk {
+        width: 65%;
+    }
+    .nmrlFacilities {
+        margin-bottom: 20px;
+    }
+    .nmrlFacilitiesWrap {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+    .whatsNewsRow.labWhatsNewsRow {
+        padding-top: 0;
+    }
+    .homeCareerBox h4 {
+        font-size: 16px;
+    }
+    .labHomeSingleCareersSlider .homeCareerBox:before {
+        top: -4px;
+    }
+    .mainCintactBox {
+        min-height: 1px;
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+    .tickerExtra {
+        height: auto !important;
+        margin-bottom: 20px;
+    }
+    .discriptionCaption .techTitle {
+        margin-bottom: 0;
+    }
+    .monographListSection .monographList li {
+        width: 100%;
+    }
+    .monographsDetail .monographsLeftImg {
+        width: 33.33%;
+    }
+    .monographsDetail .monographsRightDetail {
+        width: 66.66%;
+    }
+    .monographsDetail .monographsRightDetail .cols6:first-child ul {
+        margin: 0;
+    }
+    .blogMain ul li {
+        width: 50%;
+    }
+    form#node-potential-collaboration-form .field--name-field-proposal-write-technology,
+    form#node-potential-collaboration-form .field--name-field-funding-source {
+        width: 100%;
+        float: none;
+    }
+    .mediaGallery .homePhotoGallery ul li {
+        width: 50%;
+    }
+    .mediaGallery .region.region-photo-gallery ul li {
+        width: 50%;
+    }
+    .discriptionCaption .techTitle {
+        max-width: 100%;
+    }
+    .cols2.connectUs {
+        width: auto;
+    }
+    .cols7.impoLinks {
+        width: auto;
+    }
+    .footerRow .impoLinks h2 {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .footerMenuLinks {
+        text-align: center;
+    }
+    .footerMenuLinks li {
+        float: none;
+        padding-right: 25px;
+        display: inline-block;
+        width: auto !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /***home page***/
+    p {
+        text-align: left;
+    }
+    .homeBanner h1 {
+        font-size: 28px;
+    }
+    .combatEquipmentList .combatBoxOuter .combatEquipmentTitle {
+        font-size: 20px;
+    }
+    .combatEquipmentList .combatBoxOuter .combatEquipmentTitle {
+        text-align: center;
+    }
+    .fooerLogo {
+        padding: 20px 0;
+    }
+    .atGlance {
+        padding: 30px 0 20px;
+    }
+    .combatEquipment {
+        padding-top: 20px;
+    }
+    .mediaGallery {
+        padding: 20px 0;
+    }
+    .homeImpLinks {
+        padding: 20px 0;
+    }
+    .homeVideoList .videoDetail h3 {
+        line-height: 1.2;
+    }
+    .homeVideoList .videoDetail p {
+        line-height: 1.2;
+    }
+    .homeImpLinks .impLinksBox {
+        padding: 15px 5px;
+        min-height: 130px;
+    }
+    .videoWrap,
+    .homeBanner .bannerImg {
+        height: 290px;
+    }
+    .homeFeedTab .r-tabs .r-tabs-accordion-title {
+        display: none;
+    }
+    .homeFeedTab .tabNav {
+        display: block;
+    }
+    .homeMessageBoardList .tickerDivBlock,
+    .homeEventList .tickerDivBlock,
+    .whatsNewsSlider .tickerDivBlock,
+    #homeTwitter .homeSocialFeed,
+    #homeFacebook .homeSocialFeed {
+        height: 320px !important;
+    }
+    .whatsNewsSlider .homeNewsBox a {
+        height: auto;
+    }
+    /*.homePhotoAlbum .imgHolder { height: 300px; }*/
+    .footerRow .cols3,
+    .footerRow .cols6 {
+        float: none;
+        width: auto;
+    }
+    .footerRow .socialLinks {
+        width: 100%;
+        text-align: center;
+    }
+    .footerRow .socialLinks ul li {
+        float: none;
+        display: inline-block;
+    }
+    .footerRow .cols3 {
+        margin-bottom: 25px;
+    }
+    .footerRow .socialLinks,
+    .footerRow .cols8 {
+        margin-bottom: 0;
+    }
+    .newsLetterFieldWrap {
+        margin-right: 0;
+    }
+    .footerRow {
+        padding: 20px 0 20px 0;
+    }
+    .footerAddress p br {
+        display: none;
+    }
+    .footerRow h2,
+    .footerRow .impoLinks h2 {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+    .copyrightLink li {
+        padding: 5px 7px;
+    }
+    .copyrightLink li:before {
+        right: -1px;
+    }
+    .logoAndMenuRow .logos a:nth-child(2) {
+        margin-left: 20px;
+    }
+    .logoAndMenuRow .logos a:nth-child(2):before {
+        left: -13px;
+        background: #415c81;
+    }
+    .pageTitle h1 {
+        font-size: 30px;
+    }
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 17px;
+        line-height: 1.3;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    h6 {
+        font-size: 16px;
+    }
+    .aboutDrdo .rightImg:before {
+        display: none;
+    }
+    .aboutDrdo .rightImg {
+        float: none;
+        margin: 0 0 20px 0;
+        max-width: 100%;
+    }
+    .aboutDrdo .rightImg img {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    .citizenCharter p {
+        text-align: left;
+    }
+    .ministerList li {
+        float: none;
+        width: auto;
+    }
+    .whoIsWho .resTab .tabContent {
+        padding: 15px 0;
+    }
+    .item-list .techClustersList li {
+        width: 50%;
+    }
+    .techClustersList .techBox:hover .bottomBlock,
+    .techClustersList .techBox .bottomBlock {
+        bottom: 0;
+    }
+    .listingDetail .field--name-field-event-image,
+    .listingDetail .field--name-field-image {
+        width: 100%;
+        float: none;
+        margin: 0 0 20px 0;
+    }
+    .homeBanner h1 {
+        font-size: 24px;
+    }
+    .headerLogoRowRight .loginAndSerachWrap .borderBtn.directory {
+        display: none;
+    }
+    /*.topStrip { height: 35px; text-align: center; padding-top:4px; }*/
+    /*.topStrip .region { float: none; vertical-align: middle; display: inline-block; }*/
+    .topStrip .leftLink li:before,
+    .user-logged-in .topStrip .menu li:before {
+        right: -4px;
+    }
+    .topStrip .leftLink li:before {
+        right: auto;
+        left: 0;
+    }
+    .topStrip .leftLink li:first-child:before {
+        display: none;
+    }
+    /****Headquarter Cluster page css start****/
+    .corporateDirList ul li {
+        width: 49%;
+        padding: 10px 8px 20px;
+    }
+    .corporateDirList ul li:last-child {
+        padding-bottom: 0;
+    }
+    .corporateDirList .glanceBox p {
+        font-size: 16px;
+    }
+    .micrositeHome .logoAndMenuRow {
+        text-align: center;
+    }
+    .micrositeHome .logoAndMenuRow .headerLogoRowRight {
+        display: block;
+    }
+    .micrositeHome #header .searchBoxWrap {
+        bottom: 0;
+        left: 0;
+    }
+    .subSiteHomeBannerSlider .swiper-button-prev .fa {
+        font-size: 36px;
+        width: 40px;
+        height: 40px;
+        background: rgba(0, 39, 94, 0.8);
+    }
+    .subSiteHomeBannerSlider .swiper-button-next .fa {
+        font-size: 36px;
+        width: 40px;
+        height: 40px;
+        background: rgba(0, 39, 94, 0.8);
+    }
+    .subSiteHomeBanner .swiper-button-next {
+        right: 0;
+        left: inherit;
+        margin-left: 0;
+    }
+    .subSiteHomeBanner {
+        background: #0e4a83;
+    }
+    .subSiteHomeBanner .vCenter {
+        position: static;
+        width: 100%;
+        top: inherit;
+        transform: none;
+        -webkit-transform: none;
+        bottom: 0;
+        background: #0e4a83;
+        padding: 10px;
+    }
+    .subSiteHomeBanner .subSiteHomeBannerDetailWrap {
+        position: static;
+        left: 0;
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        padding: 0;
+        top: inherit;
+    }
+    .subSiteHomeBanner .bannerImg {
+        width: 100%;
+    }
+    .subSiteHomeBanner .subSiteHomeBannerDetail {
+        float: left;
+        width: 100%;
+        padding-left: 0;
+    }
+    .subSiteHomeBanner p {
+        display: none;
+    }
+    .subSiteHomeBanner .subSiteHomeBannerDetailWrap {
+        text-align: center;
+    }
+    .subSiteHomeBanner .subSiteHomeBannerDetail .knowMore {
+        margin-bottom: 0;
+        display: inline-block;
+    }
+    .subSiteHomeBanner h1 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .micrositeHome .siteHeaderTitle br {
+        display: none;
+    }
+    .headClustList li {
+        width: 100%;
+        padding: 10px 0 !important;
+    }
+    .headClustList.col2 li {
+        width: 100%;
+        padding: 10px 0 !important;
+    }
+    .headClustList {
+        margin: 0;
+    }
+    .headClustList li a,
+    .headClustList li a:hover {
+        padding: 10px 30px 10px 15px;
+    }
+    .headClustList li a:hover:before {
+        width: 5px;
+    }
+    .headClustList li a:after,
+    .headClustList li a:hover:after {
+        right: 12px;
+        top: 6px;
+        font-size: 24px;
+    }
+    .techHomeProducList .swiper-button-nextTech,
+    .techHomeProducList .swiper-button-prevTech {
+        display: none;
+    }
+    .techHomeProducList .swiper-container {
+        margin: 0;
+        padding: 0 60px;
+    }
+    .proListingSection .proLIsting li {
+        width: 50%;
+        padding: 8px;
+    }
+    .proListingSection .proLIsting li .proTitle a {
+        font-size: 16px;
+    }
+    .proListingSection .proLIsting li .proTitle,
+    .proListingSection .proLIsting li .proSec:hover .proTitle {
+        padding: 8px;
+    }
+    .productDetail .productLeftImg,
+    .productDetail .productRightDetail {
+        float: none;
+        width: auto;
+    }
+    .productDetail .productRightDetail {
+        padding: 15px 0 0 0;
+    }
+    .productVideos ul li {
+        width: 50%;
+    }
+    .labHomeCareersSlider .careerSliderArrow,
+    .labHomeSingleCareersSlider .careerSliderArrow {
+        display: none;
+    }
+    .labHomeCareersSlider .swiper-container,
+    .techCluEventSlider .swiper-container {
+        padding: 0 60px;
+    }
+    .view-photo-gallery ul li,
+    .page-node-type-photo-gallery .photoGallery li,
+    .page-video-gallery .videoGallery li,
+    .video-listing .video-section li {
+        width: 50%;
+    }
+    .view-photo-gallery .imgStyle,
+    .page-video-gallery .videoGallery .imgStyle,
+    .video-listing .video-section li .imgStyle {
+        height: 132px;
+    }
+    .views-exposed-form .form--inline .form-item {
+        width: 50%;
+    }
+    .field--type-faqfield .field__item h3 {
+        padding-bottom: 15px;
+    }
+    #content {
+        min-height: 1px;
+    }
+    .feedback-form .btnCaptchaRow {
+        width: 75%;
+    }
+    .innerBanner,
+    .innerBanner .pageBannerImg,
+    .pageTitleWrap {
+        height: 160px;
+    }
+    .ministerMainRow .cols6 {
+        width: auto;
+        float: none;
+    }
+    .contactList {
+        margin: 0;
+        display: block;
+    }
+    .contactList>li {
+        float: none;
+        width: auto;
+        display: block;
+        padding: 7px 0;
+    }
+    .mainContact .contactDetail {
+        padding: 8px 0;
+    }
+    .mainContact h2 {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .mainContact p {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    .mainContact ul li {
+        font-size: 15px;
+    }
+    .mainContact h2 span {
+        font-size: 15px;
+    }
+    .cateListWrap ul {
+        margin: 10px 0;
+    }
+    .cateListWrap ul li {
+        display: block;
+        width: auto;
+    }
+    .connectedForTech ul {
+        margin: 0 0 15px 0;
+    }
+    .connectedForTech ul li {
+        float: none;
+        padding: 0;
+        width: auto;
+    }
+    .agenciesContactList>ul {
+        display: block;
+    }
+    .agenciesContactList>ul>li {
+        width: auto;
+        padding: 10px 15px;
+        margin: 0;
+    }
+    .agenciesContactList .listINN,
+    .foodTechList ul {
+        display: block;
+        margin: 0;
+    }
+    .agenciesContactList .listINN li,
+    .foodTechList ul li {
+        width: auto;
+        float: none;
+    }
+    .agenciesContactList .listINN li {
+        padding: 0;
+    }
+    .totWrapRow h2 {
+        font-size: 20px;
+    }
+    .foodTechList ul li {
+        margin-bottom: 2px;
+    }
+    .totWrapRow h3 {
+        font-size: 18px;
+    }
+    .subSiteHomeBanner .swiper-container,
+    .subSiteHomeBanner {
+        height: auto;
+    }
+    .siteHeaderTitle {
+        padding-top: 5px;
+    }
+    .techHomeProducList,
+    .labHomeCareersSlider {
+        margin: 0 -10px;
+    }
+    .whatsNewsRow .playPause {
+        top: -44px;
+    }
+    .techWwhatsNewList .viewAll {
+        top: 3px;
+    }
+    .whatsNewList ul li .newsDate {
+        width: 54px;
+        top: 8px;
+    }
+    .whatsNewList ul li .dateBlock {
+        line-height: 12px;
+        font-size: 20px;
+    }
+    .whatsNewList ul li .monthBlock {
+        font-size: 14px;
+    }
+    .whatsNewList ul li a,
+    .whatsNewList.defaultNews ul li a {
+        padding: 7px 10px 7px 65px;
+    }
+    .techWwhatsNewsRow .whatsNewList ul li a,
+    .whatsNewList.defaultNews ul li a,
+    .whatsNewList.defaultNews ul li a {
+        min-height: 65px;
+    }
+    .techWwhatsNewsRow.whatsNewsRow .tickerDivBlock {
+        height: 230px !important;
+    }
+    .techCluEventList .techCluEventArrow {
+        display: none;
+    }
+    .techCluEventList .viewAll {
+        right: 15px;
+    }
+    .techCluEventList {
+        margin: 0 -10px;
+    }
+    .techCluEventBox:hover {
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    .techCluEventList .swiper-slide {
+        padding: 2px;
+    }
+    .techHomeProducList .swiper-slide {
+        padding: 5px;
+    }
+    .techHomeProducList .productBox {
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+    .subSiteHomeBanner:before {
+        display: none;
+    }
+    .subsite .ministorProfile .leftCol {
+        width: 220px;
+    }
+    .view-labs-and-establishments .item-list ul li {
+        width: 50%;
+    }
+    /* Labs and Establishments */
+    .missionVision.missionVisionBg .cols6 {
+        width: auto;
+        float: none;
+    }
+    .missionVision.missionVisionBg .missionBlockWrap {
+        max-width: 100%;
+    }
+    .missionVision.missionVisionBg .cols6 img {
+        display: none;
+    }
+    .technologiesProductSlider .careerSliderArrow {
+        display: none;
+    }
+    .technologiesProductSlider {
+        padding: 0;
+        margin: 0 -10px;
+    }
+    .technologiesProductSlider .swiper-container {
+        padding: 0 60px;
+        margin: 0;
+    }
+    .technologiesProductSlider .productImg h3 {
+        padding: 10px;
+        bottom: 0;
+        font-size: 18px;
+        background: rgba(14, 74, 131, 0.9);
+    }
+    .whatsNewList.withBoxShadow .playPause {
+        top: 22px;
+    }
+    .whatsNewList.withBoxShadow .viewAll {
+        top: 24px;
+    }
+    .missionVision.missionVisionBg .cols6:first-child {
+        width: 100%;
+    }
+    .missionVision .cols5 img {
+        display: none;
+    }
+    .missionVision .cols7,
+    .missionVision .cols5 {
+        float: none;
+        width: auto;
+    }
+    .vnedorTopDetail {
+        margin-bottom: 20px;
+    }
+    .homeImpLinks ul li {
+        width: 30%;
+    }
+    .subSiteHomeBanner .bannerImg,
+    .subSiteHomeBanner .videoWrap {
+        width: 100%;
+    }
+    .subSiteHomeBanner .swiper-container,
+    .subSiteHomeBanner .bannerImg,
+    .subSiteHomeBanner .videoWrap {
+        height: 380px;
+    }
+    .boxListData ul {
+        margin: 0 -5px;
+    }
+    .boxListData ul li {
+        padding: 10px;
+    }
+    .listingDetail .field--name-field-youtube-video .field__items {
+        width: 48%;
+    }
+    .node-vendor-registration-form .fieldRow.threeCols .form-item {
+        width: 100%;
+    }
+    .node-vendor-registration-form .fieldRow.threeCols>.form-wrapper {
+        width: 50%;
+    }
+    .node-vendor-registration-form .field-multiple-table .form-wrapper {
+        width: 50% !important;
+    }
+    .contentPage ul li br {
+        display: none;
+    }
+    .contentPage .cols1,
+    .contentPage .cols2,
+    .contentPage .cols3,
+    .contentPage .cols4,
+    .contentPage .cols5,
+    .contentPage .cols6,
+    .contentPage .cols7,
+    .contentPage .cols8,
+    .contentPage .cols9,
+    .contentPage .cols10,
+    .contentPage .cols11,
+    .contentPage .cols12 {
+        float: none;
+        width: auto;
+    }
+    .headClustList li a:after,
+    .headClustList li a:hover:after {
+        top: 16px;
+    }
+    .technologiesProductSlider .productImg h3 {
+        font-size: 16px;
+    }
+    .smoke-base .dialog {
+        width: auto;
+        max-width: inherit;
+        left: 15px;
+        right: 15px;
+        margin-left: 0;
+    }
+    .btnCaptchaRow {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .btnCaptchaRow .form-actions {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        margin-left: 0;
+    }
+    .combatEquipment .r-tabs .r-tabs-nav {
+        display: block;
+    }
+    .combatEquipment .resTab .r-tabs-accordion-title {
+        display: none;
+    }
+    .combatEquipment .resTab .tabNav li a {
+        font-size: 16px;
+        padding: 9px 5px;
+    }
+    .combatEquipmentList .combatBoxOuter .combatEquipmentTitle {
+        font-size: 16px;
+    }
+    .rti-img-poster p {
+        float: left;
+    }
+    .homeImpLinks .impLinksBox p,
+    .discriptionCaption .shortDescription,
+    .atGlance .glanceBox p {
+        text-align: center;
+    }
+    .productRightDetail .b-description_readmore_wrapper {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .technologiesProductSlider.noSlider .swiper-slide {
+        width: 49%;
+    }
+    .view-headquarter-directorate .boxListData ul li .dataWrapBox {
+        min-height: 310px;
+    }
+    .productImageSlider .swiper-slide {
+        width: 50%;
+    }
+    .productImageSlider .swiper-container.swiper-container-horizontal {
+        float: none;
+        width: auto;
+    }
+    .page-search .item-list ol li h3,
+    .page-search .item-list ol li a {
+        font-size: 16px;
+    }
+    .page-search .item-list ol li {
+        padding: 15px 15px 15px 40px !important;
+        background: url(../images/bullet-arrow.png) no-repeat 15px 20px;
+    }
+    .subSiteHomeBannerSlider {
+        width: auto;
+        float: none;
+    }
+    .subSiteHomeBanner .swiper-button-next,
+    .subSiteHomeBanner .swiper-button-prev {
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+    }
+    .subSiteHomeBanner .swiper-button-next {
+        right: 10px;
+    }
+    .subSiteHomeBanner .swiper-button-next:hover .fa,
+    .subSiteHomeBanner .swiper-button-prev:hover .fa {
+        background: rgba(0, 39, 94, 0.8);
+    }
+    .boxListData ul li {
+        width: 50%;
+    }
+    .acemImgList {
+        margin: 0;
+        border: 0;
+    }
+    .acemImgList .cols6 {
+        float: none;
+        width: auto;
+        border-bottom: 1px solid #ccc;
+    }
+    .acemImgList .cols6:first-child {
+        border-right: 0;
+    }
+    .productRightDetail>.alignRight {
+        float: none;
+        margin-bottom: 15px;
+    }
+    .multiPleImageList li,
+    .multiPleImageList.item3List li {
+        width: 50%;
+    }
+    .productImageSlider ul li {
+        width: 50%;
+    }
+    .ceptmAdvMenu.ceptmAdvSidebar {
+        width: 100%;
+    }
+    .ceptmAdvContentSection {
+        width: 100%;
+    }
+    .cols2.connectUs {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .footerRow .impoLinks h2 {
+        margin-bottom: 20px;
+    }
+    .cols7.impoLinks {
+        margin-bottom: 20px;
+    }
+    .footerRow h2,
+    .footerRow .impoLinks h2 {
+        text-align: center;
+    }
+}
+
+@media screen and ( max-width: 639px) {
+    .homeBanner h1 {
+        font-size: 22px;
+    }
+    .videoWrap,
+    .homeBanner .bannerImg {
+        height: 230px;
+    }
+    /*.homeImpLinks ul li { width: 50%; }*/
+    .homeImpLinks ul {
+        margin: 0 -5px;
+    }
+    .homeImpLinks ul li {
+        padding: 5px;
+    }
+    .discriptionCaption .techTitle,
+    .materials .discriptionCaption .techTitle {
+        font-size: 23px;
+    }
+    .lang-hi .discriptionCaption .techTitle {
+        font-size: 21px;
+    }
+    .combatEquipmentSlider .swiper-container {
+        padding: 0 100px;
+    }
+    .atGlance .glanceBox .linkText {
+        padding: 30px 20px;
+    }
+    .atGlance ul {
+        margin: 0;
+    }
+    .commonContent,
+    #content {
+        padding: 20px 0;
+    }
+    .missionVision {
+        margin-bottom: -30px;
+    }
+    .innerBanner,
+    .innerBanner .pageBannerImg,
+    .pageTitleWrap {
+        height: 140px;
+    }
+    .combatEquipmentList .combatBoxOuter .btnSet a {
+        display: block;
+    }
+    .ministerMainRow .cols6 {
+        float: none;
+        width: auto;
+    }
+    .whoIsWho .ministerMainRow h2 {
+        text-align: center;
+    }
+    .ministerGrayBox .ministerName {
+        font-size: 18px;
+    }
+    .ministerGrayBox {
+        margin-bottom: 15px;
+    }
+    .ministerBlock {
+        min-height: 1px;
+        text-align: center;
+    }
+    .ministerBlockWrap .ministerPhoto {
+        margin: 0 auto 15px auto;
+        position: static;
+    }
+    .ministerBlock .ministerSrtDetail {
+        position: static;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+    .ministerBlock .ministerSrtDetail .ministerName,
+    .ministerBlock .ministerSrtDetail p {
+        text-align: center;
+    }
+    .ministerBlockWrap {
+        padding: 15px;
+    }
+    .ministerPerDetils li {
+        float: none;
+        width: auto;
+    }
+    .item-list .techClustersList li {
+        float: none;
+        width: auto;
+    }
+    .logos>a {
+        width: 295px;
+    }
+    .logoAndMenuRow {
+        padding-top: 7px;
+    }
+    .videoWrap,
+    .homeBanner .bannerImg {
+        height: 218px;
+    }
+    .searchBoxWrap .searchBtn,
+    .searchBoxWrap .searchBtn:hover,
+    .searchBoxWrap .search-form-submit,
+    .searchBoxWrap .search-form-submit:hover {
+        margin: 0;
+    }
+    .listingDetail #content h2 {
+        font-size: 22px;
+    }
+    /*.homeVideoList .videoDetail, .homePhotoAlbum .homeAlbumTitle { width: 60%; }
+.homeVideoList .videoPoster, .homePhotoAlbum .imgHolder { width: 40%; }*/
+    /****Headquarter Cluster page css start****/
+    .corporateDirList ul {
+        margin: 0;
+    }
+    .corporateDirList ul li {
+        width: 100%;
+        padding: 0 0 30px;
+    }
+    .homeVideoList .videoDetail p,
+    .homePhotoAlbum .homeAlbumTitle p {
+        height: 72px;
+        line-height: 1.5;
+    }
+    .productDetail .productLeftImg img {
+        width: 100%;
+    }
+    .view-photo-gallery ul li,
+    .page-node-type-photo-gallery .photoGallery li,
+    .page-video-gallery .videoGallery li,
+    .video-listing .video-section li {
+        width: auto;
+        float: none;
+    }
+    .view-photo-gallery .imgStyle,
+    .page-node-type-photo-gallery .imgStyle,
+    .page-node-type-photo-gallery .photo-outer .imgStyle a,
+    .view-photo-gallery .titleStyle,
+    .page-node-type-photo-gallery .titleStyle,
+    .page-video-gallery .videoGallery .imgStyle,
+    .video-listing .video-section li .imgStyle,
+    .page-video-gallery .videoGallery .photo-outer .videoCaption,
+    .video-listing .video-section li .videoOuter .videoCaption {
+        height: auto;
+    }
+    .view-photo-gallery .titleStyle,
+    .page-video-gallery .videoGallery .photo-outer .videoCaption,
+    .video-listing .video-section li .videoOuter .videoCaption {
+        font-size: 15px;
+    }
+    .views-exposed-form {
+        display: block;
+    }
+    .views-exposed-form .form--inline .form-item,
+    .whoIsWho .views-exposed-form .form--inline .form-item {
+        float: none;
+        width: auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .views-exposed-form #edit-actions,
+    .views-exposed-form #edit-actions {
+        margin: 0;
+        float: none;
+    }
+    .user-login-form h2,
+    .user-pass-form h2,
+    .user-register-form h2,
+    .feedback-form h2 {
+        font-size: 22px;
+    }
+    .fpassLink {
+        float: none;
+        text-align: center;
+        display: block;
+        padding: 5px 0;
+        margin-top: 10px;
+    }
+    .user-login-form .extAction {
+        margin-top: 10px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .user-login-form .captcha {
+        margin-bottom: 0;
+    }
+    form.user-login-form,
+    form.user-pass,
+    form.user-register-form,
+    form.otp-verification-form,
+    form.node-feedback-form {
+        padding: 15px;
+    }
+    form.user-login-form,
+    form.user-pass,
+    form.user-register-form,
+    form.otp-verification-form,
+    form.node-feedback-form {
+        margin: 10px auto;
+    }
+    form.user-login-form #edit-actions input {
+        width: 100%;
+    }
+    .labEventList ul li {
+        width: 100%;
+    }
+    .fieldRow.twoCols .form-item,
+    .fieldRow.twoCols>.form-wrapper,
+    .feedback-form #edit-field-subject-wrapper .form-item,
+    .feedback-form .form-item {
+        width: auto;
+        float: none;
+        margin: 0 0 15px 0;
+    }
+    .feedback-form .btnCaptchaRow {
+        width: 100%;
+    }
+    .feedback-form .captcha {
+        padding-right: 0;
+    }
+    .feedback-form .captcha input[type="text"] {
+        width: 220px;
+    }
+    .feedback-form .captcha>img {
+        top: 29px;
+        max-width: 110px;
+        padding: 0;
+    }
+    .feedback-form .btnCaptchaRow .form-actions {
+        position: static;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .mainContact .cols6 {
+        float: none;
+        width: auto;
+    }
+    .mainContact .contactDetail {
+        padding: 15px;
+    }
+    .mainContact h2,
+    .mainContact p,
+    .mainContact ul li {
+        margin-bottom: 10px;
+    }
+    .mainContact h2 {
+        font-size: 18px;
+    }
+    .mainContact h2 span {
+        font-size: 16px;
+    }
+    .techLabsList ul {
+        margin: 0;
+        display: block;
+    }
+    .techLabsList ul li {
+        float: none;
+        width: auto;
+        padding: 7px 0;
+    }
+    .categoryAtech>span {
+        font-size: 16px;
+        padding: 8px 45px 8px 15px;
+    }
+    .categoryAtech>span:after {
+        right: 11px;
+        line-height: 38px;
+        font-size: 16px;
+    }
+    .techHomeProducList .productBox .bottomBox {
+        min-height: 1px;
+    }
+    .homeLabBox {
+        text-align: center;
+    }
+    .subsite .ministorProfile {
+        padding: 0;
+    }
+    .subsite .ministorProfile .leftCol .dg-title {
+        margin-bottom: 5px;
+    }
+    /* Labs and Establishments */
+    .eventHomeListWrap .eventImg {
+        width: auto;
+        float: none;
+    }
+    .eventHomeListWrap .eventDetails {
+        width: auto;
+        float: none;
+    }
+    .corporateDirList .glanceBox .linkText {
+        padding: 15px 15px 25px 15px;
+        min-height: 1px;
+    }
+    .page-node-type-labs-and-establishments .whatsNewList .viewAll.rightTopLink {
+        top: 1px;
+        right: 50px;
+    }
+    .atGlance ul li {
+        width: 48%;
+    }
+    .subSiteHomeBanner .swiper-container,
+    .subSiteHomeBanner .bannerImg,
+    .subSiteHomeBanner .videoWrap {
+        height: 280px;
+    }
+    .boxListData ul li {
+        width: 50%;
+    }
+    .listingDetail .field--name-field-youtube-video .field__items {
+        width: 47%;
+    }
+    .node-vendor-registration-form .fieldRow.threeCols .form-item {
+        width: 100%;
+    }
+    .node-vendor-registration-form .fieldRow.threeCols>.form-wrapper {
+        width: 100%;
+    }
+    .node-vendor-registration-form .field-multiple-table .form-wrapper {
+        width: 100% !important;
+    }
+    .node-vendor-registration-form .addressContactDiv .field--widget-email-default,
+    .node-vendor-registration-form .addressContactDiv .field--name-field-branch-email-address,
+    .node-vendor-registration-form .addressContactDiv .field--type-email {
+        width: 100% !important;
+        clear: left;
+    }
+    .node-vendor-registration-form .addressContactDiv .field--name-field-jurisdiction-police,
+    .node-vendor-registration-form .addressContactDiv .field--name-field-branch-jurisdiction-police,
+    .node-vendor-registration-form .addressContactDiv .field--name-field-godown-jurisdiction-police,
+    .node-vendor-registration-form .addressContactDiv .field--name-field-factory-jurisdiction,
+    .node-vendor-registration-form .addressContactDiv .field--name-field-branch-jurisdiction-police {
+        width: 100% !important;
+    }
+    .node-vendor-registration-form .multi-steps-label {
+        margin-bottom: 20px;
+    }
+    input[type="submit"],
+    input[type="button"],
+    input[type="reset"],
+    button,
+    .button,
+    .b-description_readmore_button {
+        width: 100%;
+    }
+    .field--type-field-collection .field-add-more-submit.addAnotherItemMain {
+        position: inherit;
+        bottom: inherit;
+        right: inherit;
+        width: 96%;
+        margin-left: 10px;
+    }
+    .formButtons input[type="submit"] {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .node-vendor-registration-form .multi-steps-label .step-label::before {
+        display: none;
+    }
+    .node-vendor-registration-form .multi-steps-label .step-label {
+        margin: 0 30px 36px;
+    }
+    .node-vendor-registration-form .multi-steps-label .step-label {
+        font-size: 16px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+    .technologiesProductSlider.noSlider .swiper-slide {
+        width: 49%;
+    }
+    .smoke {
+        font-size: 14px;
+    }
+    .user-register-form #edit-account .form-item {
+        width: 100%;
+    }
+    .user-register-form #edit-account #edit-pass {
+        width: 100%;
+    }
+    .user-register-form #edit-account #edit-pass .form-item {
+        width: 100%;
+    }
+    .user-register-form .fieldRow.threeCols>.form-wrapper {
+        width: 100%;
+    }
+    .user-register-form .required-fields {
+        float: left;
+    }
+    .view-labs-and-establishments .views-exposed-form .form--inline .form-item {
+        width: auto;
+    }
+    .combatEquipment .r-tabs .r-tabs-nav {
+        display: block;
+        margin: 0 10px;
+        width: auto;
+    }
+    .view-labs-and-establishments .item-list ul li .labBlock .views-field-title {
+        font-size: 15px;
+    }
+    /*.view-labs-and-establishments .item-list ul li .labBlock { min-height: 310px; }*/
+    .views-exposed-form .form--inline .form-actions {
+        clear: none;
+        float: none;
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+    .whatsNewsRow.noCareerRecord .eventHomeListWrap .eventImg {
+        height: auto;
+    }
+    .combatEquipment .textCenter {
+        margin-top: 10px;
+    }
+    .homeMessageBoardList .tickerDivBlock,
+    .homeEventList .tickerDivBlock,
+    .whatsNewsSlider .tickerDivBlock {
+        height: 220px !important;
+    }
+    #homeTwitter .homeSocialFeed,
+    #homeFacebook .homeSocialFeed {
+        height: 264px !important;
+    }
+    .facilitiesImgList>.imgHolder,
+    .facilitiesImgList .rightBlk {
+        float: none;
+        width: auto;
+    }
+    .facilitiesImgList .rightBlk {
+        width: auto;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    .productImageSlider ul {
+        margin: 0;
+    }
+    .productImageSlider ul li {
+        width: auto;
+        float: none;
+        padding: 8px 0;
+    }
+    .imgLeft,
+    .imgRight {
+        float: none;
+        margin: 0 0 15px 0;
+        display: block;
+    }
+    .monographsDetail .monographsLeftImg {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .monographsDetail .monographsRightDetail {
+        width: 100%;
+        padding-left: 0;
+    }
+    .blogMain ul li {
+        width: 100%;
+        min-height: auto;
+    }
+    .blogMain ul li .blogBrd {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    form#node-potential-collaboration-form .field--name-title,
+    form#node-potential-collaboration-form .field--name-field-dic-email,
+    form#node-potential-collaboration-form .field--name-field-phone-no-mobile-no,
+    form#node-potential-collaboration-form .field--name-field-dic-country-name,
+    form#node-potential-collaboration-form .field--name-field-title-area-for-cooperation,
+    form#node-potential-collaboration-form .field--name-field-entity-type,
+    form#node-potential-collaboration-form .field--name-field-proposal-write-technology,
+    form#node-potential-collaboration-form .field--name-field-funding-source,
+    form#node-potential-collaboration-form .field--name-field-attach-proposal {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    form#node-potential-collaboration-form {
+        padding: 20px;
+    }
+    .view-employee-corner .employeeDashboardList ul li {
+        width: auto;
+        margin: 0 15px;
+        float: none;
+    }
+    .user-register-form .form-item.form-type-email {
+        width: 100%;
+    }
+    .user-register-form .form-item.js-form-item-name.form-item-name {
+        width: 100%;
+    }
+    .user-register-form .field--name-field-mobile-number {
+        width: 100% !important;
+    }
+    .user-register-form .field--name-field-landline {
+        width: 100% !important;
+    }
+    .user-register-form .form-item-pass .form-item {
+        width: 100%;
+    }
+}
+
+@media screen and ( max-width: 479px) {
+    /***home page***/
+    .atGlance ul li {
+        width: auto;
+        padding: 10px 0;
+        display: block;
+    }
+    .atGlance ul li:last-child {
+        margin-bottom: 0;
+    }
+    .atGlance ul {
+        margin: 0;
+    }
+    .homeVideoList .videoPoster {
+        height: 168px;
+    }
+    /*.homePhotoAlbum .imgHolder{height: 198px;}*/
+    .homeImpLinks ul li {
+        width: 50%;
+    }
+    .homeImpLinks .impLinksBox p {
+        font-size: 14px;
+    }
+    .homeImpLinks .impLinksBox .icon {
+        margin-bottom: 10px;
+    }
+    .videoWrap,
+    .homeBanner .bannerImg {
+        height: 163px;
+    }
+    .homeBanner h1 {
+        font-size: 16px;
+    }
+    .discriptionCaption .commonBtn,
+    .discriptionCaption .commonBtn:hover {
+        padding: 6px 25px;
+    }
+    .combatEquipmentSlider .swiper-container {
+        padding: 0 30px;
+    }
+    .combatEquipmentList .combatBoxOuter .combatEquipmentTitle {
+        font-size: 22px;
+    }
+    /*.combatEquipmentList .combatBoxOuter { padding: 5px; }*/
+    .combatEquipmentList .darkBg,
+    .combatEquipmentList .combatBoxOuter:hover .darkBg {
+        width: auto;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+    }
+    .footerRow .socialLinks ul li {
+        padding: 0 13px;
+    }
+    .footerMenuLinks {
+        margin: -10px 0 0 0;
+    }
+    .copyrightRow .rightCol .views-element-container {
+        margin-left: 5px;
+        padding-left: 5px;
+    }
+    .homePhotoAlbum .imgHolder {
+        height: 170px;
+    }
+    .homeFeedTab .tabNav li {
+        padding-right: 0;
+    }
+    .homeImpLinks .impLinksBox {
+        min-height: 140px;
+    }
+    .pageTitle h1 {
+        font-size: 19px;
+    }
+    .logos>a {
+        margin: 0 auto;
+    }
+    .ministorProfile .leftCol {
+        max-width: 100%;
+    }
+    .listingDetail .field__items .field__item {
+        font-size: 15px;
+    }
+    .footerRow {
+        padding-bottom: 0;
+    }
+    .drdoNewsRow h2,
+    .homeFeedTab .tabNav li a,
+    .combatEquipment h2,
+    .atGlance h2,
+    .mediaGallery h2,
+    .discriptionCaption .techTitle,
+    .clustersTitle,
+    h2,
+    .whatsNewsRow h2,
+    .missionVision h2,
+    .labHomeProducs h2,
+    .techHomeProducs h2,
+    .techCluEvent h2,
+    .commonContent h2,
+    .combatEquipment h2,
+    .atGlance h2,
+    .mediaGallery h2,
+    .clustersTitle,
+    .listingDetail #content h2 {
+        font-size: 22px;
+    }
+    .lang-hi .discriptionCaption .techTitle {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .combatEquipmentList .combatBoxOuter .combatEquipmentTitle {
+        font-size: 16px;
+    }
+    .citizenCharter .tabContainer h2,
+    .czContactInfo h2 {
+        font-size: 19px;
+    }
+    .view-labs-and-establishments .item-list ul {
+        display: block;
+    }
+    .view-labs-and-establishments .item-list ul {
+        margin: 0;
+    }
+    .view-labs-and-establishments .item-list ul li {
+        width: auto;
+        float: none;
+        display: block;
+        padding: 15px 0;
+    }
+    .homeVideoList .videoDetail,
+    .homePhotoAlbum .homeAlbumTitle,
+    .homeVideoList .videoPoster,
+    .homePhotoAlbum .imgHolder {
+        width: auto;
+        float: none;
+    }
+    .homeVideoList .videoDetail,
+    .homePhotoAlbum .homeAlbumTitle {
+        padding: 15px 0 0 0;
+    }
+    .homePhotoAlbum .imgHolder,
+    .homeVideoList .videoPoster {
+        height: auto;
+    }
+    .proListingSection .proLIsting li {
+        width: 100%;
+    }
+    .proListingSection .proLIsting li img {
+        width: 100%;
+    }
+    .productImageSlider .swiper-slide a img {
+        width: 100%;
+    }
+    .productVideos ul {
+        margin: 0;
+    }
+    .productVideos ul li {
+        float: none;
+        width: auto;
+        padding: 8px 0;
+    }
+    /*.productImageSliderWrap { margin-bottom: 20px; margin-top: 20px; padding-top: 15px;}*/
+    .productDetail {
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    .headClustList li a {
+        font-size: 17px;
+    }
+    .view-filters .views-exposed-form #edit-actions {
+        float: none;
+    }
+    .user-login-form .captcha,
+    .faq_query_form .captcha {
+        padding-right: 0;
+    }
+    .user-login-form .captcha input[type="text"],
+    .feedback-form .captcha input[type="text"],
+    .faq_query_form .captcha input[type="text"] {
+        width: 140px;
+    }
+    .user-login-form .captcha>img,
+    .faq_query_form .captcha>img {
+        top: 29px;
+        max-width: 110px;
+        padding: 0;
+    }
+    .sitemap .sitemap-menu>li>a,
+    #site-map .nolink,
+    .sitemap .sitemap-menu>li>ul>li>a,
+    .sitemap .sitemap-menu>li>ul>li>a:hover {
+        font-size: 16px;
+        padding: 2px 15px;
+    }
+    .contactList .labelText {
+        font-size: 15px;
+        width: auto;
+        position: static;
+    }
+    .contactList .labelText:before {
+        display: none;
+    }
+    .contactList .valueText {
+        padding-left: 0;
+    }
+    .totWrapRow {
+        padding: 10px 0;
+    }
+    .techHomeProducList .swiper-container,
+    .labHomeCareersSlider .swiper-container,
+    .techCluEventSlider .swiper-container {
+        padding: 0 30px;
+    }
+    .whatsNewsRow .playPause {
+        top: -42px;
+    }
+    .footerMenuLinks li {
+        width: 50%;
+        margin-bottom: 4px;
+    }
+    .listingDetail .field--name-field-documents .field__item {
+        margin-right: 0;
+        padding-right: 0;
+        border: 0;
+        display: block;
+    }
+    .techHomeProducList .productBox h3 {
+        font-size: 19px;
+    }
+    .techHomeProducList .productBox .bottomBox {
+        padding: 10px 25px;
+    }
+    .subSiteHomeBanner h1 {
+        font-size: 16px;
+    }
+    .whatsNewList.withBoxShadow {
+        padding: 15px;
+    }
+    .whatsNewList.withBoxShadow .playPause {
+        top: 16px;
+        right: 15px;
+    }
+    .whatsNewList.withBoxShadow .viewAll {
+        top: 17px;
+        right: 50px;
+    }
+    .siteHeaderTitle {
+        font-size: 14px;
+    }
+    .vnedorTopDetail {
+        padding: 10px;
+    }
+    .vendorRightDetail {
+        float: none;
+    }
+    .vendorLeftDetail table {
+        margin-bottom: 10px;
+    }
+    .vendorRightDetail .userAcLink li {
+        margin-left: 0;
+        margin-right: 5px;
+    }
+    .vendorRightDetail .userAcLink li a {
+        padding: 6px 10px;
+    }
+    .homeImpLinks ul li {
+        display: block;
+        width: auto;
+    }
+    .homeImpLinks .impLinksBox {
+        min-height: 1px;
+        padding: 7px 5px 15px 5px;
+    }
+    .homeImpLinks .impLinksBox p {
+        font-size: 16px;
+    }
+    .subSiteHomeBanner .swiper-container,
+    .subSiteHomeBanner .bannerImg,
+    .subSiteHomeBanner .videoWrap {
+        height: 200px;
+    }
+    .subSiteHomeBanner .knowMore {
+        font-size: 14px;
+    }
+    .morLinksSecCareer ul li .button {
+        padding: 5px 18px;
+    }
+    .boxListData ul {
+        margin: 0;
+        display: block;
+    }
+    .boxListData ul li {
+        padding: 10px 0;
+        width: auto;
+        display: block;
+        float: none;
+    }
+    .boxListData ul li .dataWrapBox,
+    .boxListData ul li .dataWrapBox:hover {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+    .listingDetail .field--name-field-youtube-video .field__items {
+        width: 100%;
+        margin: 15px 0 0 0;
+        display: block;
+    }
+    .homeFeedTab .tabNav li a {
+        font-size: 20px;
+    }
+    .node-vendor-registration-form .multi-steps-label .step-label {
+        margin: 0 15px 36px;
+    }
+    .pdLeftImage {
+        float: none;
+        margin: 0 auto 15px auto;
+        width: 200px;
+    }
+    .pdLeftImage img {
+        width: 100%;
+    }
+    .user-register-form .btnCaptchaRow .captcha {
+        padding-right: 0;
+    }
+    .user-register-form .btnCaptchaRow .captcha>img {
+        top: 29px;
+        max-width: 110px;
+        padding: 0;
+    }
+    .user-register-form .btnCaptchaRow .captcha input[type="text"] {
+        width: 140px;
+    }
+    .user-pass-form .captcha {
+        padding-right: 0;
+    }
+    .user-pass-form .captcha>img {
+        top: 29px;
+        max-width: 110px;
+        padding: 0;
+    }
+    .user-pass-form .captcha input[type="text"] {
+        width: 140px;
+    }
+    .combatEquipment .proForExpo h2 {
+        text-align: center;
+        display: block;
+    }
+    .proForExpo .button {
+        float: none;
+        display: block;
+        margin-bottom: 15px;
+    }
+    .technologiesProductSlider .productImg h3 {
+        font-size: 14px;
+    }
+    .homeFeedTab .playPause {
+        top: -46px;
+    }
+    .atGlance .glanceBox {
+        min-height: 1px;
+    }
+    .technologiesProductSlider.noSlider .productImg {
+        border: 5px solid #265c8f;
+        -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
+    }
+    .technologiesProductSlider.noSlider .swiper-wrapper {
+        margin: 0 -3px;
+    }
+    .technologiesProductSlider.noSlider .swiper-slide {
+        padding: 3px;
+    }
+    .footerRow .cols8 {
+        margin-bottom: 15px;
+    }
+    /*.combatEquipmentList .combatBoxOuter .proBotBlk {left: 5px; right: 5px; bottom: 5px;}*/
+    .view-labs-and-establishments .item-list ul li .labBlock {
+        min-height: 1px;
+    }
+    .view-headquarter-directorate .boxListData ul li .dataWrapBox {
+        min-height: auto;
+    }
+    .combatEquipment .resTab .tabNav li a {
+        font-size: 14px;
+        padding: 9px 5px;
+    }
+    .homeFeedTab .tabNav li a {
+        padding: 0 15px;
+    }
+    .lang-hi .homeFeedTab .tabNav li a {
+        padding: 5px 15px 0 15px;
+    }
+    .lang-hi .homeFeedTab.socialFeed .tabNav li a {
+        padding: 5px 10px 0 10px;
+    }
+    .homeFeedTab.socialFeed .tabNav li a {
+        padding: 0 10px;
+    }
+    .homeFeedTab .tabNav {
+        display: inline-block;
+    }
+    .productImageSlider .swiper-slide {
+        width: 100%;
+        float: none;
+    }
+    .productImageSlider .swiper-container.swiper-container-horizontal {
+        float: none;
+        width: auto;
+    }
+    .multiPleImageList li,
+    .multiPleImageList.item3List li {
+        width: auto;
+        float: none;
+        padding: 10px !important;
+    }
+    .nmrlFacilities .imgHolder,
+    .nmrlFacilities .rightCl {
+        float: none;
+        width: auto;
+        padding: 0;
+    }
+    .nmrlFacilities .imgHolder {
+        margin-bottom: 15px;
+    }
+    .nmrlFacilities {
+        margin-bottom: 0;
+    }
+    .imgLeft,
+    .imgRight {
+        width: 100%;
+    }
+    .mediaGallery .homePhotoGallery {
+        margin-bottom: 15px;
+    }
+    .homeVideoList .videoDetail p,
+    .homePhotoAlbum .homeAlbumTitle p {
+        height: auto;
+    }
+    .view-labs-and-establishments .item-list ul li .labBlock .views-field-title {
+        position: static;
+        top: auto;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        margin-bottom: 0;
+    }
+    .view-cluster-technology-labs .boxListData ul li .dataWrapBox {
+        min-height: auto;
+    }
+    .view-cluster-technology-labs .boxListData ul li span.titleText {
+        position: static;
+        top: auto;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+    .view-cluster-technology-labs .boxListData ul li a {
+        padding: 10px 0;
+    }
+    .dataCenter .boxListData ul li {
+        display: block;
+    }
+    .monographListSection .monographList li {
+        width: 100%;
+    }
+    .mediaGallery .homePhotoGallery ul li {
+        width: 100%;
+    }
+    .mediaGallery .region.region-photo-gallery ul li {
+        width: 100%;
+    }
+    .monographListSection .monographList li .fieldImg {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and ( max-width: 359px) {
+    .videoWrap,
+    .homeBanner .bannerImg {
+        height: 145px;
+    }
+    .combatEquipment .resTab .tabNav li a {
+        padding: 9px 35px;
+    }
+    .homeFeedTab .tabNav li a,
+    .homeFeedTab.socialFeed .tabNav li a {
+        padding: 0 5px;
+    }
+    .homeBannerSlider .swiper-button-pause,
+    .homeBannerSlider .swiper-button-play {
+        top: 1px;
+    }
+}

@@ -1,0 +1,1732 @@
+.homeBanner {
+    position: relative;
+}
+
+.homeBanner img {
+    width: 100%;
+}
+
+.homeBanner .homeBannerCaption {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    z-index: 1;
+}
+
+.homeBanner h1 {
+    font-size: 46px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.homeBanner video {
+    width: 100%;
+}
+
+.videoWrap,
+.homeBanner .bannerImg {
+    height: 500px;
+}
+
+.homeBanner .bannerImg {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.homeBanner .homeBannerCaption h2 {
+    text-align: center !important;
+    color: white;
+}
+
+.homeBanner .bannerImg img {
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.homeBanner video {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+.homeBanner .swiper-wrapper .swiper-slide:before {
+    background: transparent;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    position: absolute;
+    z-index: 1;
+}
+
+.homeBanner .swiper-slide-active {
+    opacity: 1 !important;
+}
+
+.homeBannerSlider .swiper-button-next,
+.homeBannerSlider .swiper-button-prev {
+    display: none;
+}
+
+.homeBannerSlider .swiper-button-next.active,
+.homeBannerSlider .swiper-button-prev.active {
+    display: block;
+}
+
+.homeBannerSlider .swiper-button-pause,
+.homeBannerSlider .swiper-button-play {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    cursor: pointer;
+    font-size: 0;
+}
+
+.homeBannerSlider .swiper-button-pause {
+    right: 10px;
+}
+
+.homeBannerSlider .swiper-button-play {
+    right: 41px;
+}
+
+.homeBannerSlider .swiper-button-pause:before,
+.homeBannerSlider .swiper-button-play:before {
+    font-family: 'FontAwesome';
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    color: #fff;
+    font-size: 15px;
+    display: block;
+}
+
+.homeBannerSlider .swiper-button-pause:before {
+    content: "\f04c";
+}
+
+.homeBannerSlider .swiper-button-pause.play:before {
+    content: "\f04b";
+}
+
+.homeBannerSlider .swiper-button-play {
+    display: none !important;
+}
+
+.combatEquipmentList {
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+    margin-bottom: 0
+}
+
+.combatEquipmentList .swiper-container:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    content: "";
+    background: #fff;
+    z-index: 2;
+}
+
+.combatEquipmentSlider .swiper-slide {
+    width: 20%;
+    float: left;
+}
+
+.combatEquipmentSlider .swiper-container.swiper-container-horizontal .swiper-slide {
+    float: none;
+}
+
+.combatEquipment {
+    padding-top: 40px;
+    clear: both;
+    padding-bottom: 40px;
+}
+
+.combatEquipment .textCenter {
+    margin-top: 20px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.combatEquipment h2,
+.atGlance h2,
+.mediaGallery h2,
+.clustersTitle {
+    text-align: center;
+    font-size: 2.375em;
+    font-weight: 700;
+    color: #2d2d2d;
+    /*margin-bottom: 40px;*/
+}
+
+.combatEquipmentList li {
+    float: left;
+    position: relative;
+    width: 20%
+}
+
+.combatEquipmentList .combatBoxOuter {
+    color: #353535;
+    display: block;
+    background-color: #000;
+}
+
+.combatEquipmentList .combatBoxOuter img {
+    width: 100%;
+}
+
+.darkBg {
+    background: rgba(32, 124, 229, 0);
+    background: -moz-linear-gradient(top, rgba(32, 124, 229, 0) 0%, rgba(11, 67, 140, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(32, 124, 229, 0)), color-stop(100%, rgba(11, 67, 140, 1)));
+    background: -webkit-linear-gradient(top, rgba(32, 124, 229, 0) 0%, rgba(11, 67, 140, 1) 100%);
+    background: -o-linear-gradient(top, rgba(32, 124, 229, 0) 0%, rgba(11, 67, 140, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(32, 124, 229, 0) 0%, rgba(11, 67, 140, 1) 100%);
+    background: linear-gradient(to bottom, rgba(32, 124, 229, 0) 0%, rgba(11, 67, 140, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207ce5', endColorstr='#0b438c', GradientType=0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 40%;
+    -webkit-transition: all 0.75s ease 0s;
+    -moz-transition: all 0.75s ease 0s;
+    -o-transition: all 0.75s ease 0s;
+    transition: all 0.75s ease 0s;
+    width: 100%
+}
+
+.blkBg {
+    background: rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0.68) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(44%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.68)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0.68) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0.68) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0.68) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 44%, rgba(0, 0, 0, 0.68) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    -webkit-transition: all 0.75s ease 0s;
+    transition: all 0.75s ease 0s;
+    -moz-transition: all 0.75s ease 0s;
+    -o-transition: all 0.75s ease 0s;
+    transition: all 0.75s ease 0s;
+    width: 100%
+}
+
+.combatEquipmentList .combatBoxOuter .commonBtn {
+    line-height: 18px;
+    background: #c54b67;
+    padding: 7px 20px;
+    height: 36px;
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.combatEquipmentList .combatBoxOuter .commonBtn {
+    padding: 9px 20px 5px 20px;
+}
+
+.combatEquipmentList .combatBoxOuter .commonBtn:hover {
+    background: #36a7eb;
+}
+
+.combatEquipmentList .combatBoxOuter:hover .darkBg {
+    height: 70%;
+}
+
+.combatEquipmentList .combatBoxOuter .combatEquipmentTitle {
+    /*text-transform: uppercase;*/
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 55px;
+    font-size: 1.125em;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+
+.combatEquipmentList .combatBoxOuter .btnSet {
+    bottom: 10px;
+    left: 15px;
+    right: 15px;
+    text-align: center;
+    transition: all .5s ease-out;
+    -webkit-transition: all .5s ease-out;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.combatEquipmentList .combatBoxOuter:hover .btnSet {
+    opacity: 1;
+    visibility: visible
+}
+
+.combatEquipmentList .combatBoxOuter .btnSet a {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+
+.aeronautics {
+    background: url(../images/aeronautics.jpg) right center no-repeat;
+    background-size: cover
+}
+
+.discriptionCaption {
+    position: relative;
+    max-width: 740px;
+    min-height: 210px;
+}
+
+.discriptionCaption .srNo {
+    font-size: 40px;
+    font-weight: 300;
+    color: #d4d4d4;
+    display: none;
+}
+
+.discriptionCaption .techTitle {
+    font-size: 2em;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.lang-hi .discriptionCaption .techTitle {
+    line-height: 1.3;
+    font-size: 1.5em;
+}
+
+.discriptionCaption .shortDescription {
+    font-size: 1.188em;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.2;
+    display: none;
+}
+
+.discriptionCaption .techName {
+    position: absolute;
+    opacity: 0.5;
+    font-size: 13px;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    display: none;
+}
+
+.engineeringScience {
+    overflow: hidden;
+}
+
+.engineeringScience,
+.mem {
+    position: relative;
+}
+
+/*.mem .leftBg { position: absolute; left: 0; top: -60px; height: 100%; width:60.41666666666667%; display:none; }*/
+
+.mem .leftBg {
+    background: #010203 url(../images/ASAT3.jpg) right top no-repeat;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+.mem .leftBg:before {
+    width: 655px;
+    height: 456px;
+    position: absolute;
+    right: -23px;
+    top: 20px;
+    content: "";
+    background: url(../images/missile-top.png) 0 0 no-repeat;
+    z-index: 1;
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    display: none;
+}
+
+/*.activeBlock.mem .leftBg:before { right: -23px;top: 20px;}*/
+
+.mem .leftBg:after {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    z-index: 2;
+    background: rgba(32, 112, 191, 1);
+    background: -moz-linear-gradient(top, rgba(32, 112, 191, 1) 0%, rgba(255, 255, 255, 0.03) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(32, 112, 191, 1)), color-stop(100%, rgba(255, 255, 255, 0.03)));
+    background: -webkit-linear-gradient(top, rgba(32, 112, 191, 1) 0%, rgba(255, 255, 255, 0.03) 100%);
+    background: -o-linear-gradient(top, rgba(32, 112, 191, 1) 0%, rgba(255, 255, 255, 0.03) 100%);
+    background: -ms-linear-gradient(top, rgba(32, 112, 191, 1) 0%, rgba(255, 255, 255, 0.03) 100%);
+    background: linear-gradient(to bottom, rgba(32, 112, 191, 1) 0%, rgba(255, 255, 255, 0.03) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2070bf', endColorstr='#ffffff', GradientType=0);
+}
+
+.coputationalSystem .discriptionCaption {
+    padding-right: 170px;
+}
+
+.mem {
+    min-height: 480px
+}
+
+.mem .discriptionCaption {
+    position: relative;
+    z-index: 2;
+}
+
+.combatEngineering:before {
+    background: url(../images/combatEngineering.jpg) right bottom no-repeat;
+    background-size: cover;
+    padding: 0;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.coputationalSystem {
+    background: #213c6f url(../images/med-coputational-bg-1.jpg) right bottom no-repeat;
+    background-size: auto 100%;
+    padding-left: 30px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0
+}
+
+.cols7 .halfContainerLeft {
+    max-width: 855px;
+    float: right;
+    padding-right: 40px;
+    width: 100%
+}
+
+.cols5.lifeScience .halfContainerRight {
+    max-width: 605px;
+    float: left;
+    padding-left: 40px;
+    width: 100%
+}
+
+.fullContainer {
+    width: 100%;
+    padding: 0
+}
+
+.electronicsMaterials {
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    margin-left: 0;
+}
+
+.materials .discriptionCaption {
+    max-width: 300px;
+}
+
+/*.materials .discriptionCaption .techTitle{font-size:35px;}*/
+
+.missiles:before {
+    background: #010203 url(../images/missile.png) right top no-repeat;
+    padding: 0;
+    position: absolute;
+    content: "";
+    right: 50%;
+    top: 0;
+    width: 70%;
+    height: 100%;
+    margin-right: -128px;
+    display: none
+}
+
+/* .missiles:before{background:url(../images/missile_top.png) right bottom no-repeat; position: absolute;content: "";right: -72px; top:-60px;width:517px;height:446px; z-index: 1;} */
+
+.electronics {
+    /*background:url(../images/life-sciences-bg.jpg) left bottom no-repeat; background-size: cover;*/
+    background: rgba(14, 162, 211, 1);
+    background: -moz-linear-gradient(top, rgba(14, 162, 211, 1) 0%, rgba(61, 63, 176, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(14, 162, 211, 1)), color-stop(100%, rgba(61, 63, 176, 1)));
+    background: -webkit-linear-gradient(top, rgba(14, 162, 211, 1) 0%, rgba(61, 63, 176, 1) 100%);
+    background: -o-linear-gradient(top, rgba(14, 162, 211, 1) 0%, rgba(61, 63, 176, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(14, 162, 211, 1) 0%, rgba(61, 63, 176, 1) 100%);
+    background: linear-gradient(to bottom, rgba(14, 162, 211, 1) 0%, rgba(61, 63, 176, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0ea2d3', endColorstr='#3d3fb0', GradientType=0);
+    padding: 0 20px 0 30px;
+    max-width: 330px;
+}
+
+.electronics .discriptionCaption {
+    position: relative;
+}
+
+.electronics .discriptionCaption:before {
+    width: 100%;
+    height: 246px;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url(../images/electronics-materials-img.png) no-repeat 0 0;
+    background-size: 100%;
+}
+
+.electronics .discriptionCaption {
+    position: relative;
+    z-index: 1;
+}
+
+.materials {
+    background: #d75071 url(../images/materials.jpg) right bottom no-repeat;
+    background-size: 100%;
+    min-height: 600px;
+    width: calc(100% - 330px);
+    padding: 0 20px 0 30px
+}
+
+.threeColumns .discriptionCaption {
+    min-height: 480px
+}
+
+.discriptionCaption .commonBtn {
+    font-size: 16px;
+    color: #353434;
+    opacity: 1;
+    visibility: visible;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    background: #fff;
+    padding: 9px 17px;
+    margin-top: 10px;
+}
+
+/*.discriptionCaption:hover .commonBtn{opacity: 1; visibility: visible;transform: translateY(-5px);-webkit-transform: translateY(-5px); -moz-transform: translateY(-5px);-ms-transform: translateY(-5px)}*/
+
+.discriptionCaption .commonBtn:hover {
+    background: #db5678;
+    color: #fff;
+    padding: 9px 17px;
+    font-size: 16px;
+}
+
+.twoColsfull {
+    position: relative;
+    margin-top: 0;
+    float: left;
+    clear: both;
+    width: 100%;
+    z-index: 3;
+}
+
+.contentSection.twoColsfull {
+    overflow: hidden;
+}
+
+.twoColsfull:before {
+    background: #34a6eb;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    display: block
+}
+
+.twoColsfull .imagePositioning {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.navalSystems {
+    position: relative;
+    /*background:#34a6eb;*/
+}
+
+.navalSystems img.alignRight {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: inherit;
+    width: auto;
+    height: auto;
+}
+
+.armaments {
+    background: #81bc75;
+    position: relative;
+    padding-left: 30px
+}
+
+.armaments img {
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+.padT100 {
+    padding-top: 100px
+}
+
+.navalSystems .halfContainerLeft {
+    position: relative;
+    z-index: 1;
+}
+
+.navalSystems .rightImg {
+    margin-bottom: -5px;
+    margin-right: 90px;
+}
+
+.contentSection.nsmBlock {
+    background-color: #000;
+}
+
+/***********At a Glance***********/
+
+.atGlance {
+    padding: 40px 0;
+}
+
+.atGlance ul {
+    margin: 0 -18px;
+    padding: 0;
+    list-style: none;
+}
+
+.atGlance ul li {
+    margin: 0;
+    padding: 0 30px;
+    float: left;
+    width: 20%;
+}
+
+.atGlance .glanceBox {
+    min-height: 188px;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.16);
+    position: relative;
+    overflow: hidden;
+}
+
+.atGlance .glanceBox .linkText {
+    display: block;
+    padding: 35px 20px;
+}
+
+.atGlance .glanceBox:before {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 5px;
+    border: 1px solid #e7e7e7;
+    content: "";
+    z-index: 1;
+}
+
+.atGlance .glanceBox:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    -webkit-transition: all 0.75s ease 0s;
+    -moz-transition: all 0.75s ease 0s;
+    -o-transition: all 0.75s ease 0s;
+    transition: all 0.75s ease 0s;
+    background: rgba(0, 42, 98, 1);
+    background: -moz-linear-gradient(45deg, rgba(0, 42, 98, 1) 0%, rgba(5, 104, 161, 1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(0, 42, 98, 1)), color-stop(100%, rgba(5, 104, 161, 1)));
+    background: -webkit-linear-gradient(45deg, rgba(0, 42, 98, 1) 0%, rgba(5, 104, 161, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(0, 42, 98, 1) 0%, rgba(5, 104, 161, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(0, 42, 98, 1) 0%, rgba(5, 104, 161, 1) 100%);
+    background: linear-gradient(45deg, rgba(0, 42, 98, 1) 0%, rgba(5, 104, 161, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002a62', endColorstr='#0568a1', GradientType=1);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.atGlance .glanceBox:hover:after {
+    visibility: visible;
+    opacity: 1;
+}
+
+.atGlance .glanceBox .linkText,
+.atGlance .glanceBox .icon,
+.atGlance .glanceBox p {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.atGlance .glanceBox .icon {
+    width: 89px;
+    height: 67px;
+    margin: 0 auto 8px auto;
+    display: block;
+}
+
+.atGlance .glanceBox p {
+    margin: 0;
+    font-size: 1.125em;
+    color: #2d2d2d;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.atGlance .glanceBox,
+.atGlance .glanceBox .icon,
+.atGlance .glanceBox p,
+.homeImpLinks .impLinksBox,
+.homeImpLinks .impLinksBox .icon,
+.homeImpLinks .impLinksBox p,
+.mediaGallery .homeGalleryBox .titleText,
+.mediaGallery .homeGalleryBox .imgHolder img,
+.mediaGallery .homeGalleryBox .fa,
+.footerRow .socialLinks ul li a .fa,
+.newsLetterFieldWrap .submit {
+    -webkit-transition: 350ms ease-in-out;
+    transition: 350ms ease-in-out;
+}
+
+.atGlance .glanceBox:hover:before {
+    border-color: #4f7fa6;
+}
+
+.atGlance .glanceBox:hover p {
+    color: #fff;
+}
+
+.atGlance .glanceBox .icon1 {
+    background-position: 0 -78px;
+}
+
+.atGlance .glanceBox:hover .icon1 {
+    background-position: 0 -167px;
+}
+
+.atGlance .glanceBox .icon2 {
+    background-position: -89px -78px;
+}
+
+.atGlance .glanceBox:hover .icon2 {
+    background-position: -89px -167px;
+}
+
+.atGlance .glanceBox .icon3 {
+    background-position: -178px -78px;
+}
+
+.atGlance .glanceBox:hover .icon3 {
+    background-position: -178px -167px;
+}
+
+.atGlance .glanceBox .icon4 {
+    background-position: -267px -78px;
+}
+
+.atGlance .glanceBox:hover .icon4 {
+    background-position: -267px -167px;
+}
+
+.atGlance .glanceBox .icon5 {
+    background-position: -218px -379px;
+}
+
+.atGlance .glanceBox:hover .icon5 {
+    background-position: -218px -453px;
+}
+
+/***********Home Important Links***********/
+
+.homeImpLinks {
+    padding: 25px 0;
+    /*padding: 75px 0; */
+    background: rgba(0, 39, 94, 1);
+    background: -moz-linear-gradient(45deg, rgba(0, 39, 94, 1) 0%, rgba(6, 112, 169, 1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(0, 39, 94, 1)), color-stop(100%, rgba(6, 112, 169, 1)));
+    background: -webkit-linear-gradient(45deg, rgba(0, 39, 94, 1) 0%, rgba(6, 112, 169, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(0, 39, 94, 1) 0%, rgba(6, 112, 169, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(0, 39, 94, 1) 0%, rgba(6, 112, 169, 1) 100%);
+    background: linear-gradient(45deg, rgba(0, 39, 94, 1) 0%, rgba(6, 112, 169, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00275e', endColorstr='#0670a9', GradientType=1);
+    background-color: #000;
+}
+
+.homeImpLinks ul {
+    margin: 0 -2px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.homeImpLinks ul li {
+    padding: 2px;
+    width: 11.111%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.homeImpLinks .impLinksBox {
+    padding: 20px 10px;
+    display: block;
+    border-radius: 3px;
+    min-height: 162px;
+}
+
+.homeImpLinks .impLinksBox:hover {
+    background: #fff;
+    box-shadow: 0 25px 54px rgba(0, 0, 0, 0.52);
+}
+
+.homeImpLinks .impLinksBox .icon {
+    width: 66px;
+    height: 64px;
+    margin: 0 auto 15px auto;
+    display: block;
+}
+
+.homeImpLinks .impLinksBox p {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.homeImpLinks .impLinksBox:hover p {
+    color: #00275e;
+    /*font-weight: 700;*/
+}
+
+.homeImpLinks .impLinksBox .icon1 {
+    background-position: 0 -243px;
+}
+
+.homeImpLinks .impLinksBox:hover .icon1 {
+    background-position: 0 -307px;
+}
+
+.homeImpLinks .impLinksBox .icon2 {
+    background-position: -66px -243px;
+}
+
+.homeImpLinks .impLinksBox:hover .icon2 {
+    background-position: -66px -307px;
+}
+
+.homeImpLinks .impLinksBox .icon3 {
+    background-position: -132px -243px;
+}
+
+.homeImpLinks .impLinksBox:hover .icon3 {
+    background-position: -132px -307px;
+}
+
+.homeImpLinks .impLinksBox .icon4 {
+    background-position: -198px -243px;
+}
+
+.homeImpLinks .impLinksBox:hover .icon4 {
+    background-position: -198px -307px;
+}
+
+.homeImpLinks .impLinksBox .icon5 {
+    background-position: -264px -243px;
+}
+
+.homeImpLinks .impLinksBox:hover .icon5 {
+    background-position: -264px -307px;
+}
+
+.homeImpLinks .impLinksBox .icon6 {
+    background-position: -330px -243px;
+}
+
+.homeImpLinks .impLinksBox:hover .icon6 {
+    background-position: -330px -307px;
+}
+
+.homeImpLinks .impLinksBox .icon7 {
+    background-position: 0 -373px;
+}
+
+.homeImpLinks .impLinksBox:hover .icon7 {
+    background-position: 0 -437px;
+}
+
+.homeImpLinks .impLinksBox .icon8 {
+    background-position: -66px -373px;
+}
+
+.homeImpLinks .impLinksBox:hover .icon8 {
+    background-position: -66px -437px;
+}
+
+.homeImpLinks .impLinksBox .icon9 {
+    background-position: -132px -373px;
+}
+
+.homeImpLinks .impLinksBox:hover .icon9 {
+    background-position: -132px -437px;
+}
+
+/***********Media Gallery***********/
+
+/*.mediaGallery { background:#34a6eb; padding: 70px 0; }
+.mediaGallery h2 { color: #fff;}
+.mediaGallery .swiper-slide { padding: 20px; float:left; width: 395px; }
+.mediaGallery .swiper-container-horizontal .swiper-slide { float: none; width:auto;} 
+.mediaGallery .homeGalleryBox { display:block; box-shadow: 0 0 30px rgba(0, 0, 0, 0.16); border-radius: 5px; background: #fff; padding: 10px; }
+.mediaGallery .homeGalleryBox .imgHolder { overflow: hidden; position: relative; }
+.mediaGallery .homeGalleryBox .imgHolder img { width: 100%; border-radius: 5px 5px 0 0; }
+.mediaGallery .homeGalleryBox:hover .imgHolder img{transform: scale(1.1); -webkit-transform: scale(1.1);}
+.mediaGallery .homeGalleryBox .titleText { height: 88px; overflow: hidden; display: block; text-align: left; font-size: 19px; line-height: 1.2; color: #2d2d2d; font-weight: 700; padding: 10px 20px; }
+.mediaGallery .homeGalleryBox:hover .titleText { color: #05619a; }
+.mediaGallery .homeGalleryBox .fa { width: 46px; height: 46px; line-height: 45px; text-align: center; background: #fff; border-radius: 50%; position: absolute; left: 50%; top: 50%; margin: -23px 0 0 -23px; opacity:0; visibility: hidden; font-size: 23px; color: #034c84; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+.mediaGallery .homeGalleryBox:hover .fa { opacity:1; visibility: visible; }
+.mediaGallery .homeGalleryBox .fa:hover { background: #034c84; color: #fff; }
+.homeMediaGalSlider .swiper-container { padding-bottom: 40px; }
+.homeMediaGalSlider .swiper-container .swiper-pagination { bottom: 0; }*/
+
+.mediaGallery {
+    background: #1578cd;
+    /*background:#34a6eb;*/
+    padding: 40px 0;
+}
+
+.mediaGallery h2 {
+    color: #fff;
+    text-align: left;
+}
+
+.mediaGallery .viewAll {
+    position: absolute;
+    right: 0;
+    top: -65px;
+    color: #fff;
+}
+
+.mediaGallery .viewAll:hover {
+    text-decoration: underline;
+    color: #75baf6;
+}
+
+.mediaGallery .viewAll .fa {
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+.mediaGallery .homePhotoGallery,
+.mediaGallery .homeVideoGallery {
+    float: left;
+}
+
+.mediaGallery .homePhotoGallery {
+    width: 50%;
+    border-right: 1px solid #5eb9ef;
+    padding-right: 90px;
+}
+
+.mediaGallery .homeVideoGallery {
+    padding-left: 90px;
+    width: 50%;
+}
+
+.homePhotoAlbum,
+.homeVideo {
+    position: relative;
+}
+
+.homePhotoAlbum .imgHolder {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 40%;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.26);
+    margin-bottom: 0;
+}
+
+.homePhotoAlbum .homeAlbumTitle {
+    padding-top: 0;
+    float: left;
+    width: 60%;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.homePhotoAlbum .homeAlbumTitle h3 {
+    font-size: 1.063em;
+    color: #494949;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.homePhotoAlbum .homeAlbumTitle h3 a {
+    color: #fff;
+}
+
+.homePhotoAlbum .homeAlbumTitle h3 a:hover {
+    text-decoration: underline;
+}
+
+.homePhotoAlbum .homeAlbumTitle p {
+    margin: 0;
+    font-size: 0.938em;
+    color: #fff;
+    color: #fff;
+    height: 91px;
+    overflow: hidden;
+}
+
+.homePhotoAlbum .imgHolder .fa,
+.homeVideoList .videoPoster .fa {
+    width: 46px;
+    height: 46px;
+    line-height: 45px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -23px 0 0 -23px;
+    /*opacity:0; visibility: hidden;*/
+    font-size: 23px;
+    color: #023c73;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-transition: 350ms ease-in-out;
+    transition: 350ms ease-in-out;
+}
+
+.homePhotoAlbum .imgHolder:hover .fa,
+.homeVideoList li:hover .videoPoster .fa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.homePhotoAlbum .imgHolder:hover .fa,
+.homeVideoList .videoPoster:hover .fa {
+    background: #034c84;
+    color: #fff;
+}
+
+.homeVideo {
+    padding: 0;
+    background: none;
+}
+
+.homeVideoList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.homeVideoList li {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.homeVideoList li:last-child {
+    margin-bottom: 0;
+}
+
+.homeVideoList .videoPoster {
+    float: left;
+    width: 40%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.26);
+}
+
+.homeVideoList .videoDetail {
+    float: left;
+    width: 60%;
+    padding-left: 30px;
+}
+
+.homeVideoList .videoDetail h3 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.063em;
+    color: #fff;
+    line-height: 1.3;
+}
+
+.homeVideoList .videoDetail h3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.homeVideoList .videoDetail h3 a:hover {
+    text-decoration: underline;
+}
+
+.homeVideoList .videoDetail p {
+    margin: 0;
+    font-size: 0.938em;
+    color: #fff;
+    height: 91px;
+    overflow: hidden;
+}
+
+.homeVideoList .videoPoster .fa {
+    padding-left: 4px;
+}
+
+.homePhotoAlbum .homeAlbumTitle h3 a,
+.homeVideoList .videoDetail h3 a,
+.homePhotoAlbum .imgHolder,
+.homeVideoList .videoPoster a {
+    display: block;
+}
+
+.mediaGallery .region.region-photo-gallery ul {
+    margin: 0 -10px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.mediaGallery .region.region-photo-gallery ul li {
+    display: inline-block;
+    width: 24%;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.mediaGallery .view.view-photo-gallery {
+    position: relative;
+}
+
+/***********Home News***********/
+
+.drdoNewsRow {
+    padding: 70px 0;
+    background: #fff;
+    position: relative;
+}
+
+#content.drdoNewsRow {
+    min-height: 1px;
+}
+
+.drdoNewsRow .container {
+    position: relative;
+    z-index: 1;
+}
+
+.drdoNewsRow:before {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    left: 50%;
+    content: "";
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-left: 256px;
+    /*background:#f1f1f1;*/
+}
+
+.drdoNewsRow:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    right: 50%;
+    content: "";
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-right: 256px;
+    /*background:#f1f1f1;*/
+}
+
+.drdoNewsRow .row {
+    margin: 0 -60px;
+}
+
+.drdoNewsRow .row .cols4 {
+    padding: 0 60px;
+}
+
+/*.drdoNewsRow .row .cols4:first-child { border-right: 1px solid #d4d4d4; }*/
+
+.drdoNewsRow .viewAll {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #00275e;
+}
+
+.drdoNewsRow .viewAll .fa {
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+.drdoNewsRow .viewAll:hover {
+    color: #2d2d2d;
+    text-decoration: underline;
+}
+
+.homeFeedTab .viewAll {
+    position: relative;
+    top: 11px;
+}
+
+.drdoNewsRow h2 {
+    font-size: 22px;
+    color: #353535;
+    font-weight: 700;
+    border-bottom: 3px solid #788ca7;
+    display: inline-block;
+}
+
+.whatsNewsSlider {
+    position: relative;
+}
+
+.whatsNewsSlider .swiper-container {
+    margin-bottom: 20px;
+}
+
+.whatsNewsSlider .sliderArrow {
+    position: absolute;
+    right: 0;
+    top: -64px;
+    width: 60px;
+}
+
+.whatsNewsSlider .sliderArrow .swiper-button-next,
+.whatsNewsSlider .sliderArrow .swiper-button-prev {
+    width: 30px;
+    height: 30px;
+    position: static;
+    margin: 0;
+}
+
+.whatsNewsSlider .sliderArrow .swiper-button-next .fa,
+.whatsNewsSlider .sliderArrow .swiper-button-prev .fa {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    line-height: 28px;
+}
+
+.whatsNewsSlider .sliderArrow .swiper-button-next {
+    float: right;
+}
+
+.whatsNewsSlider .sliderArrow .swiper-button-prev {
+    float: left;
+}
+
+.activityTicker {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.whatsNewsSlider .activityTicker li {
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.whatsNewsSlider .homeNewsBox {
+    padding: 18px 0;
+}
+
+.whatsNewsSlider .homeNewsBox p {
+    margin-bottom: 0;
+}
+
+.whatsNewsSlider .homeNewsBox .newsDate {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #414141;
+}
+
+.whatsNewsSlider .homeNewsBox a {
+    display: inline-block;
+    color: #2d2d2d;
+    /*height:47px; overflow: hidden;*/
+}
+
+.whatsNewsSlider .homeNewsBox a:hover {
+    color: #0568a1;
+}
+
+.whatsNewsSlider .homeNewsBox .newsCategory {
+    padding-left: 9px;
+    margin-left: 9px;
+    border-left: 1px solid #545454;
+    color: #00275e;
+    font-weight: 700;
+}
+
+.homeFeedTab .homeEventItem .newsCategory {
+    padding-left: 9px;
+    margin-left: 9px;
+    border-left: 1px solid #545454;
+    color: #00275e;
+    font-weight: 700;
+}
+
+.whatsNewsSlider .swiper-wrapper {
+    height: 430px;
+}
+
+.homeFeedTab .resTab {
+    border: 0;
+    padding: 0;
+}
+
+.homeFeedTab .tabNav {
+    margin: 0;
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #8ab2ec;
+}
+
+.homeFeedTab .tabNav li {
+    padding-right: 0;
+    background: none;
+}
+
+.homeFeedTab .tabNav li:last-child {
+    padding-right: 0;
+}
+
+/*.homeFeedTab.socialFeed .tabNav li { width: 45%; }*/
+
+.homeFeedTab .tabNav li a {
+    font-size: 22px;
+    color: #353535;
+    font-weight: 700;
+    padding: 2px 20px;
+    border-bottom: 4px solid #fff;
+    position: relative;
+}
+
+.homeFeedTab .tabNav li a:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-top-color: #02447c;
+    border-width: 12px;
+    margin-left: -12px;
+    display: none;
+}
+
+.homeFeedTab .tabNav .r-tabs-state-active a {
+    border-color: #02447c;
+    background: #02447c;
+    color: #fff;
+}
+
+.homeFeedTab .tabNav .r-tabs-state-active a:before {
+    display: block;
+}
+
+.homeFeedTab .tabNav li a .fa {
+    margin-right: 0;
+    font-size: 27px;
+    padding: 0 10px;
+    width: 40px;
+    position: relative;
+    top: 2px;
+}
+
+.homeFeedTab .tabNav .r-tabs-state-active a .fa {
+    color: #fff;
+}
+
+/*.homeFeedTab .tabNav .r-tabs-state-active a .fa-twitter { color:#03a9f4; }*/
+
+.homeFeedTab .tabContent {
+    padding: 15px 0;
+}
+
+.homeSocialFeed {
+    margin-bottom: 0;
+}
+
+.homeSocialFeed.twitterFeed,
+.homeSocialFeed.facebookFeed {
+    background: url(../images/loading.gif) no-repeat center center;
+}
+
+.homeMessageBoardList ul,
+.homeEventList ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.homeMessageBoardList ul li,
+.homeEventList ul li {
+    display: block;
+    border-bottom: 1px solid #aeaeae;
+    padding: 0;
+}
+
+.homeMessageBoardList .homeMessageBoardItem .imgHolder,
+.homeEventList .homeEventItem .imgHolder {
+    margin-bottom: 10px;
+}
+
+.homeMessageBoardList .homeMessageBoardItem a,
+.homeEventList .homeEventItem a {
+    display: block;
+    padding: 13px 0;
+    color: #2d2d2d;
+}
+
+.homeMessageBoardList .homeMessageBoardItem strong {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.homeMessageBoardList .homeMessageBoardItem a:hover,
+.homeEventList .homeEventItem a:hover {
+    color: #0568a1;
+}
+
+.homeEventList .homeEventItem .eventDate {
+    font-size: 14px;
+    color: #414141;
+    display: block;
+}
+
+.homeMessageBoardList .tickerDivBlock,
+.homeEventList .tickerDivBlock,
+.whatsNewsSlider .tickerDivBlock {
+    height: 420px !important;
+    margin-bottom: 40px;
+}
+
+.combatEquipment p.noRecFound {
+    text-align: center;
+}
+
+.homeEventList .tickerDivBlock {
+    margin-bottom: 33px;
+}
+
+.customTab {
+    position: relative;
+}
+
+.customTabContent,
+.customTab .tabAccTitle {
+    display: none
+}
+
+.customTabNav {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.customTabNav li {
+    display: inline-block;
+}
+
+.mediaGallery .customTabNav {
+    margin: 0;
+    padding: 0 0 20px 0;
+    list-style: none;
+    text-align: center;
+}
+
+.mediaGallery .customTabNav li {
+    margin: 0 13px;
+}
+
+.mediaGallery .customTabNav li a {
+    font-size: 19px;
+    font-weight: 700;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.mediaGallery .customTabNav li.active a {
+    opacity: 1;
+}
+
+.mediaGallery .customTabNav li .fa {
+    margin-right: 7px;
+}
+
+.whatsNewsSlider .ticker {
+    position: relative;
+}
+
+.whatsNewsSlider .playPause {
+    position: absolute;
+    right: 0;
+    top: -63px;
+}
+
+.whatsNewsSlider .playPause {
+    overflow: hidden;
+    width: 27px;
+    height: 27px;
+    text-indent: -9999px;
+    background: url(../images/lab-establishments/play-pause-icon.png) no-repeat 0 0;
+    display: block;
+}
+
+.whatsNewsSlider .playPause.play {
+    background-position: -29px 0;
+}
+
+.homeFeedTab .ticker {
+    position: relative;
+}
+
+.homeFeedTab .playPause {
+    position: absolute;
+    right: 0;
+    top: -52px;
+}
+
+.homeFeedTab .playPause {
+    overflow: hidden;
+    width: 27px;
+    height: 27px;
+    text-indent: -9999px;
+    background: url(../images/lab-establishments/play-pause-icon.png) no-repeat 0 0;
+    display: block;
+}
+
+.homeFeedTab .playPause.play {
+    background-position: -29px 0;
+}
+
+.fullscreenDown {
+    position: relative;
+}
+
+.fullscreenDown .goToSection {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #02447c;
+    color: #fff;
+    font-size: 30px;
+    z-index: 10;
+    cursor: pointer;
+    text-align: center;
+    /*transition: all 350ms ease 0s; -webkit-transition: all 350ms ease 0s;*/
+    animation: bounce 2s infinite;
+}
+
+.fullscreenDown .goToSection span {
+    display: block;
+    text-indent: -9999px;
+    font-size: 0;
+}
+
+.fullscreenDown .goToSection:hover {
+    background: #2677bb;
+}
+
+.fullscreenDown .goToSection,
+.fullscreenDown .goToSection.deActive,
+.homeBanner .goToSection.deActive {
+    display: none;
+}
+
+.homeBanner .goToSection,
+.goToSection.showArrow {
+    display: block;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.combatEquipment .proForExpo h2 {
+    text-align: left;
+    display: inline-block;
+}
+
+.proForExpo .button {
+    float: right;
+}
+
+.combatEquipment .resTab {
+    border: 0;
+}
+
+.combatEquipment .resTab .tabNav {
+    border: 1px solid #8ab2ec;
+    box-shadow: 0 0 54px rgba(0, 0, 0, 0.16);
+    background: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.combatEquipment .resTab .tabNav li {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.combatEquipment .resTab .tabNav li a {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2d2d2d;
+    background: #fff;
+    padding: 15px 5px;
+}
+
+.combatEquipment .resTab .tabNav .r-tabs-state-active a {
+    color: #fff;
+    background: #05306b;
+}
+
+.combatEquipment .resTab .tabContent {
+    padding: 30px 0 0;
+}
+
+.combatEquipment .resTab .tabNav li a:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(5, 48, 107, 0);
+    border-top-color: #05306b;
+    border-width: 15px;
+    margin-left: -15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 350ms ease 0s;
+    -webkit-transition: all 350ms ease 0s;
+}
+
+.combatEquipment .resTab .tabNav li.r-tabs-state-active a:before {
+    visibility: visible;
+    opacity: 1;
+}
+
+.homeFeedTab .tabNav li a .fa-facebook {
+    color: #1b2c97;
+}
+
+.homeFeedTab .tabNav li a .fa-twitter {
+    color: #03a9f4;
+}
+
+.homeFeedTab .tabNav .r-tabs-state-active a .fa-facebook,
+.homeFeedTab .tabNav .r-tabs-state-active a .fa-twitter {
+    color: #fff;
+}
+
+.homeLinkSection {
+    display: block;
+}
+
+/*.Disable Video Gallery 08 March 2021*/
+
+/*.region-video-gallery{
+    display: none !important;
+}
+.mediaGallery .homePhotoGallery {
+    width: 100% !important;
+    border-right: 0px solid #5eb9ef !important;
+    padding-right: 0px !important;
+}
+.homePhotoAlbum .imgHolder {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 25% !important;
+    box-shadow: 0 5px 40px rgb(0 0 0 / 26%);
+    margin-bottom: 0;
+}*/

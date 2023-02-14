@@ -1,0 +1,58 @@
+/**
+ * @file
+ * Visual styles for Bartik's dropbutton component.
+ */
+
+.js .dropbutton-widget {
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.js .dropbutton-widget:hover {}
+
+.js .dropbutton-widget .button {
+    border: none;
+    margin: 0;
+    padding: 0.32em 1em;
+    background: transparent none;
+}
+
+.js .dropbutton-multiple .dropbutton-widget,
+.js[dir="rtl"] .dropbutton-multiple .dropbutton-widget {
+    padding: 0;
+}
+
+.js .dropbutton-multiple .dropbutton-widget .dropbutton {
+    position: relative;
+    font-size: 14px;
+}
+
+.js[dir="rtl"] .dropbutton-multiple .dropbutton-widget .dropbutton {
+    padding-right: 0;
+    padding-left: 2em;
+}
+
+.js .dropbutton-multiple .dropbutton-widget .dropbutton-action a {
+    margin-right: 0;
+    /* LTR */
+}
+
+[dir="rtl"].js .dropbutton-multiple .dropbutton-widget .dropbutton-action a {
+    margin-left: 0;
+}
+
+.js .dropbutton .secondary-action {
+    border-top-color: #ccc;
+}
+
+.js .dropbutton-toggle button {}
+
+.js .dropbutton-toggle .dropbutton-arrow:hover {
+    background: #ccc;
+}
+
+.js .dropbutton a {
+    color: #3a3a3a;
+    border-bottom: 0 none;
+}

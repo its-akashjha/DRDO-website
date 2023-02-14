@@ -1,0 +1,832 @@
+@charset "utf-8";
+/*======================================================================
+Site Name: Defence Research & Development Organisation (DRDO)
+Description: this site is developed by STTL
+Version: 1.0
+Author: Web Team
+------------------------------------------------------------------------
+Base Color: #fff (White)
+Site Color: #062a4a (Dark Blue)
+Header Color: #062a4a (Dark Blue)
+Text Color: #393939 (Dark Grey)
+Title Color: #393939 (Dark Grey), #e65a15 (Orange)
+Footer Color: #393939 (Dark Grey)
+------------------------------------------------------------------------
+Layout Width: 100%
+Container Width: 1450px
+=======================================================================*/
+
+/* Flipbook css */
+
+.bb-bookblock {
+    width: 100%;
+    min-height: 900px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+    -webkit-perspective: 1300px;
+    perspective: 1300px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    margin-bottom: 7%;
+    box-shadow: 0 0 12px #847b7b;
+}
+
+.bb-page {
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: transform;
+}
+
+.bb-vertical .bb-page {
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.bb-horizontal .bb-page {
+    width: 100%;
+    height: 50%;
+    top: 50%;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+}
+
+.bb-page>div,
+.bb-outer,
+.bb-content,
+.bb-inner {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.bb-vertical .bb-content {
+    width: 200%;
+}
+
+.bb-horizontal .bb-content {
+    height: 200%;
+}
+
+.bb-page>div {
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.bb-vertical .bb-back {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.bb-horizontal .bb-back {
+    -webkit-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+}
+
+.bb-outer {
+    width: 100%;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.bb-overlay,
+.bb-flipoverlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.bb-flipoverlay {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.bb-bookblock.bb-vertical>div.bb-page:first-child,
+.bb-bookblock.bb-vertical>div.bb-page:first-child .bb-back {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.bb-bookblock.bb-horizontal>div.bb-page:first-child,
+.bb-bookblock.bb-horizontal>div.bb-page:first-child .bb-back {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+/* Content display */
+
+.bb-content {
+    background: #fff;
+}
+
+.bb-vertical .bb-front .bb-content {
+    left: -100%;
+}
+
+.bb-horizontal .bb-front .bb-content {
+    top: -100%;
+}
+
+/* Flipping classes */
+
+.bb-vertical .bb-flip-next,
+.bb-vertical .bb-flip-initial {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.bb-vertical .bb-flip-prev {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+.bb-horizontal .bb-flip-next,
+.bb-horizontal .bb-flip-initial {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+.bb-horizontal .bb-flip-prev {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+}
+
+.bb-vertical .bb-flip-next-end {
+    -webkit-transform: rotateY(-15deg);
+    transform: rotateY(-15deg);
+}
+
+.bb-vertical .bb-flip-prev-end {
+    -webkit-transform: rotateY(-165deg);
+    transform: rotateY(-165deg);
+}
+
+.bb-horizontal .bb-flip-next-end {
+    -webkit-transform: rotateX(15deg);
+    transform: rotateX(15deg);
+}
+
+.bb-horizontal .bb-flip-prev-end {
+    -webkit-transform: rotateX(165deg);
+    transform: rotateX(165deg);
+}
+
+.bb-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background: #1b1a1a;
+    padding: 50px;
+    border: 8px solid #1e659d;
+    overflow: auto;
+    text-align: center;
+    color: white;
+}
+
+/* No JS */
+
+.no-js .bb-bookblock,
+.no-js ul.bb-custom-grid li {
+    width: auto;
+    height: auto;
+}
+
+.no-js .bb-item {
+    display: block;
+    position: relative;
+}
+
+.flipbook-menu {
+    background: #1e659d;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.flipbook-menu a {
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.flipbookslider img {
+    width: 100%;
+    height: 500px;
+}
+
+#bb-bookblock .flip-with-background {
+    background: url(../images/flipbook/flip-background.jpg) !important;
+    background-size: cover !important;
+}
+
+#bb-bookblock .views-field-field-tc-thumbnail {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+#bb-bookblock .bb-item .views-field-field-tc-thumbnail img {
+    width: 100%;
+    max-height: 750px;
+}
+
+.bb-item .views-field-field-index-cover {
+    width: 70%;
+    float: left;
+}
+
+#bb-bookblock .bb-item .views-field-field-index-cover img {
+    width: 100%
+}
+
+#bb-bookblock .bb-item .views-field-field-index-text {
+    margin-top: 0px;
+    padding: 70px;
+    color: #FFF;
+    font-size: 23px;
+    font-weight: 600;
+    clear: both;
+}
+
+#bb-bookblock .bb-item .views-field-field-index-text a {
+    color: #FFF;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+#bb-bookblock .bb-item .tc-title {
+    font-size: 25px;
+    font-family: Anton, sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin: 0px 5px 35px;
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 3px solid;
+    padding-bottom: 30px;
+}
+
+/* Slider on flipbook */
+
+.slider {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.slick-slide {
+    margin: 0 5px;
+}
+
+.slick-list {
+    margin: 0px -5px 0px -5px;
+}
+
+button.slick-next,
+button.slick-next:hover {
+    position: absolute;
+    top: 41%;
+    right: 54px;
+    width: 47px;
+    height: 75px;
+    background-image: url("http://maggiesadler.com/wp-content/uploads/2015/10/left-right-arrow.png");
+    background-size: 95px;
+}
+
+button.slick-prev,
+button.slick-prev:hover {
+    position: absolute;
+    top: 41%;
+    left: 15px;
+    z-index: 1;
+    width: 47px;
+    height: 75px;
+    background-image: url("http://maggiesadler.com/wp-content/uploads/2015/10/left-right-arrow.png");
+    background-size: 95px;
+    background-position-x: right;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 70px;
+    color: #EA8496;
+    line-height: inherit;
+    font-weight: bold;
+}
+
+.slider img {
+    height: 324px;
+}
+
+/* Slick Slider Styles -- Provided by https://kenwheeler.github.io/slick/ */
+
+/* Slider */
+
+.slick-slider {
+    position: relative;
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+    opacity: 1;
+}
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+    left: -25px;
+}
+
+[dir='rtl'] .slick-prev {
+    right: -25px;
+    left: auto;
+}
+
+.slick-prev:before {
+    content: '';
+}
+
+[dir='rtl'] .slick-prev:before {
+    content: '';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.slick-next {
+    right: -25px;
+}
+
+[dir='rtl'] .slick-next {
+    right: auto;
+    left: -25px;
+}
+
+.slick-next:before {
+    content: '';
+}
+
+[dir='rtl'] .slick-next:before {
+    content: '';
+}
+
+/* Dots */
+
+.slick-slider {
+    margin-bottom: 30px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -45px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+    outline: none;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+    opacity: 1;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 40px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 25px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #116cc3;
+}
+
+/* date-22-03-2021*/
+
+.page-node-type-interactive-technology-focus .pageTitle {
+    position: absolute;
+    left: 0;
+    top: 80% !important;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.page-node-type-interactive-technology-focus .pageTitle h1 {
+    font-size: 3em !important;
+    color: white;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.page-node-type-interactive-technology-focus .innerBanner,
+.page-node-type-interactive-technology-focus .innerBanner .pageBannerImg {
+    height: 100px !important;
+    position: relative;
+}
+
+.page-node-type-interactive-technology-focus .innerBanner .pageBannerImg img {
+    height: 100px !important;
+}
+
+.view-id-drdo_technology_e_bulletin .drdo-tc-focus {
+    box-shadow: 0 0 10px #e3e3e3;
+    padding: 15px;
+    min-height: 260px;
+}
+
+.view-id-drdo_technology_e_bulletin .drdo-tc-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.view-id-drdo_technology_e_bulletin .drdo-tc-viewall {
+    margin-top: 80px;
+}
+
+.view-id-drdo_technology_e_bulletin .drdo-tc-viewall a {
+    background: #02447c;
+    padding: 10px 20px;
+    color: white;
+}
+
+/*resposive*/
+
+@media only screen and (max-width: 768px) {
+    .page-node-type-interactive-technology-focus .pageTitle h1 {
+        font-size: 1.50em !important;
+        color: white;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 0;
+    }
+    .flipbookslider img {
+        height: 300px !important;
+    }
+    .bb-bookblock {
+        width: 100%;
+        min-height: 550px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 100;
+        -webkit-perspective: 1300px;
+        perspective: 1300px;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        overflow: hidden;
+        margin-bottom: 7%;
+        box-shadow: 0 0 12px #847b7b;
+    }
+    #bb-bookblock .views-field-field-tc-thumbnail {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .page-node-type-interactive-technology-focus #bb-bookblock .bb-item iframe {
+        width: 100% !important;
+        height: 300px !important;
+    }
+    .page-node-type-interactive-technology-focus .bb-item {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        background: #1b1a1a;
+        padding: 10px;
+        border: 8px solid #1e659d;
+        overflow: auto;
+        text-align: center;
+        color: white;
+    }
+    .page-node-type-interactive-technology-focus #bb-bookblock .bb-item .tc-title {
+        font-size: 17px;
+        font-family: Anton, sans-serif;
+        letter-spacing: 0.5px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        margin: 0px 5px 35px;
+        position: relative;
+        text-align: center;
+        font-weight: 600;
+        border-bottom: 2px solid;
+        padding-bottom: 20px;
+    }
+}
+
+/* drdo-e-bulletin 26 march 2021*/
+
+#bb-bookblock .views-field-field-thumbnail {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+#bb-bookblock .flip-with-background .view-drdo-e-bulletin .views-field-field-index-text {
+    margin-top: 0px;
+    padding: 70px;
+    color: #4c4848;
+    font-size: 23px;
+    font-weight: 600;
+    clear: both;
+}
+
+.page-node-type-interactive-newsletter .innerBanner .innerBannerCaption {
+    text-align: left;
+    max-width: 100% !important;
+}
+
+.page-node-type-interactive-newsletter .pageTitle {
+    position: absolute;
+    left: 0;
+    top: 80%;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.page-node-type-interactive-newsletter .pageTitle h1 {
+    font-size: 3em;
+    color: white;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.page-node-type-interactive-newsletter .innerBanner,
+.page-node-type-interactive-newsletter .innerBanner .pageBannerImg {
+    height: 100px !important;
+    position: relative;
+}
+
+.page-node-type-interactive-newsletter .innerBanner .pageBannerImg img {
+    height: 100px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .page-node-type-interactive-newsletter .pageTitle h1 {
+        font-size: 1.50em !important;
+        color: white;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 0;
+    }
+    #bb-bookblock .views-field-field-thumbnail {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .bb-item {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        background: #1b1a1a;
+        padding: 10px;
+        border: 8px solid #1e659d;
+        overflow: auto;
+        text-align: center;
+        color: white;
+    }
+    .bb-item .views-field-field-index-cover {
+        width: 100%;
+        float: left;
+    }
+    #bb-bookblock .bb-item .views-field-field-index-text {
+        margin-top: 0px;
+        padding: 10px 0px;
+        color: #FFF;
+        font-size: 23px;
+        font-weight: 600;
+        clear: both;
+    }
+}
+
+.view-drdo-e-bulletins .drdo-tc-focus {
+    box-shadow: 0 0 10px #e3e3e3;
+    padding: 15px;
+    min-height: 260px;
+}
+
+.view-drdo-e-bulletins .drdo-tc-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.view-drdo-e-bulletins .drdo-tc-viewall {
+    margin-top: 80px;
+}
+
+.view-drdo-e-bulletins .drdo-tc-viewall a {
+    background: #02447c;
+    padding: 10px 20px;
+    color: white;
+}
